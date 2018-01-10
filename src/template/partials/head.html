@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="<%= language %>">
+<head>
+<meta charset="UTF-8">
+<title><%= title %><% if (title !== name) { %> | <%= name %><% } %></title>
+
+<!-- styles -->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="<%- root %>css/main.css?<%- version %>">
+
+<!-- mobile settings -->
+<link rel="manifest" href="<%- rootURL %>manifest.json">
+<meta name="theme-color" content="<%= themeColor %>">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="<%= themeColor %>">
+<meta name="mobile-web-app-capable" content="yes">
+
+<!-- icons -->
+<link rel="icon" sizes="310x310" href="<%- rootURL %>images/icons/optimalworks-310.png">
+<link rel="icon" sizes="192x192" href="<%- rootURL %>images/icons/optimalworks-192.png">
+<link rel="icon" sizes="152x152" href="<%- rootURL %>images/icons/optimalworks-152.png">
+<link rel="icon" sizes="120x120" href="<%- rootURL %>images/icons/optimalworks-120.png">
+<link rel="icon" sizes="076x076" href="<%- rootURL %>images/icons/optimalworks-076.png">
+
+<meta name="msapplication-TileColor" content="<%= themeColor %>">
+<meta name="msapplication-TileImage" content="<%- rootURL %>images/icons/optimalworks-310.png">
+
+<!-- favicon -->
+<link rel="shortcut icon" href="<%- rootURL %>favicon.png">
+<link rel="shortcut icon" href="<%- rootURL %>favicon.ico">
+
+<!-- page information -->
+<meta name="application-name" content="<%= name %>"/>
+<meta name="description" content="<%= description %>">
+<meta name="keywords" content="<%= keywords %>">
+<meta name="author" content="<%= author %>">
+
+<!-- indexing -->
+<% if (devBuild || private) { %>
+  <meta name="robots" content="noindex, nofollow">
+<% } else { %>
+  <meta name="robots" content="index, follow">
+<% } %>
+
+<!-- feed links -->
+<link rel="alternate" type="application/rss+xml" title="RSS | <%= name %>" href="<%- rootURL %>feed.xml">
+<link rel="alternate" type="application/atom+xml" title="Atom | <%= name %>" href="<%- rootURL %>feed.xml">
+
+<!-- Schema.org -->
+<meta itemprop="name" content="<%= title %>">
+<meta itemprop="description" content="<%= description %>">
+
+<!-- Open Graph -->
+<meta property="og:site_name" content="<%= name %>">
+<meta property="og:url" content="<%- rootURL %><%= url %>">
+<meta property="og:title" content="<%= title %>">
+<meta property="og:description" content="<%= description %>">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="<%= language %>">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary">
+
+<% if (twitter) { %>
+  <meta property="twitter:site" content="<%= twitter %>">
+  <meta property="twitter:creator" content="<%= twitter %>">
+<% } %>
+
+<meta property="twitter:title" content="<%= title %>">
+<meta property="twitter:description" content="<%= description %>">
+
+</head>
+<body<%- (menu ? ' id="' + menu + '"' : '') %>>

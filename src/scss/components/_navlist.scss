@@ -1,0 +1,63 @@
+// in-page navigation list
+
+.list {
+
+  margin: 1em 0;
+
+  ul, li {
+    list-style-type: none;
+    @include reset;
+  }
+
+  ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  li {
+    flex: 1 1 10em;
+    margin: 1vmin;
+    border: 1px solid $color-fore;
+  }
+
+  a {
+    display: block;
+    height: 100%;
+  }
+
+  a:link, a:visited {
+    padding-bottom: 0.5em;
+    color: $color-fore;
+    border: 0 none;
+  }
+
+  .img {
+    background-color: $color-fore;
+    border-bottom: 1px solid $color-fore;
+    overflow: hidden;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    max-width: auto;
+    transform: scale(1);
+    will-change: transform;
+    transition: transform 3s ease-in-out;
+  }
+
+  a:hover img, a:focus img {
+    transform: scale(1.2);
+  }
+
+  h2, p {
+    line-height: 1.1;
+    margin: 0.3rem 1rem;
+  }
+
+  p.date {
+    font-size: 0.75em;
+  }
+
+}

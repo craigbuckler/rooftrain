@@ -1,0 +1,118 @@
+// header and hero
+header {
+
+  position: relative;
+  min-height: 4em;
+
+  .hero {
+
+    max-height: 100vh;
+
+    &:after {
+      position: absolute;
+      content: ' ';
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba($color-fore, 0);
+      will-change: background-color;
+    }
+
+    &.progressive:not(.replace) {
+
+      &:after {
+        animation: 1s linear 1.2s forwards overlayhero;
+      }
+
+    }
+
+    & + .quote {
+      transform: translateY(-99em);
+    }
+
+    &.progressive:not(.replace) {
+
+      &:after {
+        animation: 1s linear 1.2s forwards overlayhero;
+      }
+
+      & + .quote {
+        will-change: filter, transform;
+        animation: 1s ease-out 1.5s forwards quotehero;
+      }
+
+    }
+
+  }
+
+  .quote, .cta {
+    position: absolute;
+    font-size: 2em;
+    top: 50%;
+    left: 3vw;
+    right: 3vw;
+    text-align: center;
+    line-height: 1.05;
+    color: $color-back;
+  }
+
+  .cta {
+    display: none;
+    font-size: 1.5em;
+    top: auto;
+    bottom: 10%;
+
+    a {
+      display: block;
+      width: 6em;
+      padding: 0.1em 0 0.3em;
+      margin: 0 auto;
+      color: $color-back;
+      border: 2px solid $color-back;
+      will-change: color, border-color;
+      transition: all 0.3s linear;
+
+      &:hover, &focus {
+        color: $color-logo;
+        border-color: $color-logo;
+      }
+
+    }
+  }
+
+  @include respond('small') {
+
+    .quote {
+      top: 30%;
+    }
+
+    .cta {
+      display: block;
+    }
+
+  }
+
+  q::before, q::after {
+    content: "";
+  }
+
+}
+
+
+// animation
+@keyframes overlayhero {
+	0% { background-color: rgba($color-fore, 0); }
+	100% { background-color: rgba($color-fore, 0.8); }
+}
+
+@keyframes quotehero {
+	0% {
+    filter: blur(30px);
+    transform: translateY(-2em);
+  }
+	100% {
+    filter: blur(0px);
+    transform: translateY(0);
+  }
+}

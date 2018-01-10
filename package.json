@@ -1,0 +1,73 @@
+{
+  "name": "RoofTrain",
+  "version": "1.0.0",
+  "description": "RoofTrain UK professional roof-training courses",
+  "author": "Craig Buckler",
+  "main": "gulp build",
+  "site": {
+    "name": "RoofTrain UK",
+    "shortname": "RoofTrain",
+    "description": "RoofTrain UK professional roof-training courses. We provide effective professional roof training courses for roofers, builders, electricians, plumbers and others in the construction industry.",
+    "keywords": "welcome, home, home page, roof training, roof courses, roofing training, roofing courses, roofer training, roofer courses, roof training courses, roofing training courses, roofer training courses, roof, roofing, roofer, builder, construction, professional, apprentice, train, training, course, courses, qualify, qualifications, nvq, exam, exeter, devon, south west, uk",
+    "company": "RoofTrain UK Ltd",
+    "twitter": "",
+    "font": "",
+    "language": "en-GB",
+    "domain": "https://rooftrain.co.uk",
+    "ftphost": "ftp.gridhost.co.uk",
+    "ftpdest": "/public_html",
+    "root": "/",
+    "devdomain": "http://192.168.1.23:8000",
+    "devroot": "/",
+    "themeColor": "#fff",
+    "PWAcache": "::Roof",
+    "offlineURL": "offline/",
+    "offlineList": "cachedpagelist",
+    "imagecdn": "https://res.cloudinary.com/rooftrain/image/upload/",
+    "analytics": "UA-24678025-1"
+  },
+  "scripts": {
+    "start": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/craigbuckler/optimalworks.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "7.2.4",
+    "css-mqpacker": "6.0.1",
+    "cssnano": "3.10.0",
+    "del": "3.0.0",
+    "ejs": "2.5.7",
+    "gulp": "3.9.1",
+    "gulp-concat": "2.6.1",
+    "gulp-deporder": "1.1.0",
+    "gulp-imagemin": "4.1.0",
+    "gulp-lightmin": "0.0.2",
+    "gulp-newer": "1.4.0",
+    "gulp-postcss": "7.0.1",
+    "gulp-preprocess": "2.0.0",
+    "gulp-sass": "3.1.0",
+    "gulp-strip-debug": "2.0.0",
+    "gulp-trimlines": "1.0.1",
+    "gulp-uglify": "3.0.0",
+    "gulp-util": "3.0.8",
+    "metalsmith": "2.3.0",
+    "metalsmith-beautify": "0.2.0",
+    "metalsmith-headings-identifier": "0.0.11",
+    "metalsmith-html-minifier": "3.0.0",
+    "metalsmith-inline-source": "1.0.6",
+    "metalsmith-layouts": "1.8.1",
+    "metalsmith-mapsite": "1.0.4",
+    "metalsmith-markdown": "0.2.1",
+    "metalsmith-publish": "0.1.5",
+    "metalsmith-word-count": "0.0.4",
+    "postcss-assets": "5.0.0",
+    "vinyl-ftp": "0.6.0"
+  },
+  "devDependencies": {
+    "browser-sync": "2.23.3"
+  }
+}
