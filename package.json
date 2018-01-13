@@ -1,5 +1,5 @@
 {
-  "name": "RoofTrain",
+  "name": "rooftrain",
   "version": "1.0.0",
   "description": "RoofTrain UK professional roof-training courses",
   "author": "Craig Buckler",
@@ -19,7 +19,7 @@
     "root": "/",
     "devdomain": "http://192.168.1.23:8000",
     "devroot": "/",
-    "themeColor": "#fff",
+    "themeColor": "#e0e0e0",
     "PWAcache": "::Roof",
     "offlineURL": "offline/",
     "offlineList": "cachedpagelist",
@@ -36,11 +36,10 @@
   },
   "license": "MIT",
   "dependencies": {
-    "autoprefixer": "7.2.4",
+    "autoprefixer": "7.2.5",
     "css-mqpacker": "6.0.1",
     "cssnano": "3.10.0",
     "del": "3.0.0",
-    "ejs": "2.5.7",
     "gulp": "3.9.1",
     "gulp-concat": "2.6.1",
     "gulp-deporder": "1.1.0",
@@ -54,20 +53,21 @@
     "gulp-trimlines": "1.0.1",
     "gulp-uglify": "3.0.0",
     "gulp-util": "3.0.8",
+    "jstransformer-ejs": "0.0.3",
     "metalsmith": "2.3.0",
     "metalsmith-beautify": "0.2.0",
     "metalsmith-headings-identifier": "0.0.11",
     "metalsmith-html-minifier": "3.0.0",
     "metalsmith-inline-source": "1.0.6",
-    "metalsmith-layouts": "1.8.1",
+    "metalsmith-layouts": "2.0.0",
     "metalsmith-mapsite": "1.0.4",
-    "metalsmith-markdown": "0.2.1",
+    "metalsmith-markdown": "0.2.2",
     "metalsmith-publish": "0.1.5",
     "metalsmith-word-count": "0.0.4",
     "postcss-assets": "5.0.0",
     "vinyl-ftp": "0.6.0"
   },
   "devDependencies": {
-    "browser-sync": "2.23.3"
+    "browser-sync": "2.23.5"
   }
 }

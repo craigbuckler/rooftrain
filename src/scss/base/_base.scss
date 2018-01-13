@@ -1,4 +1,8 @@
 // Base styles
+:root {
+  font-size: $font-size-rwd;
+}
+
 html {
   touch-action: manipulation;
   background-color: $color-logo;
@@ -6,8 +10,7 @@ html {
 
 body {
   font-family: $font-main;
-  font-size: $font-size-old;
-  font-size: $font-size-rwd;
+  font-size: 100%;
   font-weight: 300;
   line-height: 1.2;
   @include reset;

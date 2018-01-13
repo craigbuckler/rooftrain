@@ -1,11 +1,14 @@
 // logo
-.optimalworks {
-  font-weight: 300;
-  text-transform: lowercase;
-  color: $color-logo !important;
+.rooftrain {
 
-  strong {
-    font-weight: 400;
-    text-transform: uppercase;
+  fill: $color-logo;
+
+  .roof {
+    fill: $color-logo-roof;
   }
+
+  .train {
+    fill: $color-logo-train;
+  }
+
 }
