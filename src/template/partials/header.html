@@ -1,8 +1,12 @@
 <header>
 
+  <div class="back">
+    <img src="<%- imagecdn %>c_scale,w_50/<%- hero %>" alt="<%= hero.replace(/.+\/([^/]+)\..+$/, '$1').trim(); %>" />
+  </div>
+
   <% if (hero) { %>
-    <figure data-href="<%- imagecdn %><%- hero %>" data-srcset="<%- imagecdn %>c_scale,w_800/<%- hero %> 800w, <%- imagecdn %><%- hero %> 1200w" class="hero progressive replace" itemprop="primaryImageOfPage">
-      <img src="<%- imagecdn %>c_scale,w_24/<%- hero %>" alt="<%= hero.replace(/.+\/([^/]+)\..+$/, '$1').trim(); %>" class="preview" />
+    <figure data-href="<%- imagecdn %><%- hero %>" class="hero progressive replace" itemprop="primaryImageOfPage">
+      <img src="<%- imagecdn %>c_scale,w_50/<%- hero %>" alt="<%= hero.replace(/.+\/([^/]+)\..+$/, '$1').trim(); %>" class="preview" />
     </figure>
   <% } %>
 

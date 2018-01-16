@@ -1,10 +1,10 @@
 ---
-title: RoofTrain UK Professional Roof Training Courses
+title: Professional Roof Training Courses
 menu: home
 description: Welcome to RoofTrain UK. We provide effective professional roof training courses for roofers, builders, electricians, plumbers and others in the construction industry.
 hero: v1515518078/train/solar2.jpg
-heroquote: professional roof training courses
-ctatext: contact
+heroquote: professional roof training courses for novice and experienced roofers
+ctatext: contact us
 ctalink: contact-us/
 priority: 1.0
 ---

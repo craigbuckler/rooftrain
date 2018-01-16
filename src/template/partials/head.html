@@ -58,6 +58,10 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="<%= language %>">
 
+<% if (hero) { %>
+  <meta property="og:image" content="<%- imagecdn %><%- hero %>">
+<% } %>
+
 <!-- Twitter -->
 <meta property="twitter:card" content="summary">
 

@@ -42,32 +42,31 @@ For an informal no-obligation discussion of your roof training requirements, ple
 
 <div>
 	<label for="contact" class="help">Please enter your name.</label>
-	<label for="contact">Name:</label>
-	<input type="text" id="contact" name="contact" value="" maxlength="80" />
+	<label for="contact">name:</label>
+	<input type="text" id="contact" name="contact" value="" maxlength="80" placeholder="your name" />
 </div>
 
 <div>
 	<label for="organisation" class="help">Please enter your organisation's name.</label>
-	<label for="organisation">Organisation:</label>
-	<input type="text" id="organisation" name="organisation" value="" maxlength="100" />
+	<label for="organisation">organisation:</label>
+	<input type="text" id="organisation" name="organisation" value="" maxlength="100" placeholder="company name" />
 </div>
 
 <div>
 	<label for="telephone" class="help">Please enter your telephone number.</label>
-	<label for="telephone">Telephone:</label>
-	<input type="tel" id="telephone" name="telephone" value="" maxlength="20" />
+	<label for="telephone">telephone:</label>
+	<input type="tel" id="telephone" name="telephone" value="" maxlength="20" placeholder="contact number" />
 </div>
 
 <div>
 	<label for="email" class="help">Please enter your email address.</label>
-	<label for="email">Email:</label>
-	<input type="email" id="email" name="email" value="" maxlength="80" />
+	<label for="email">email:</label>
+	<input type="email" id="email" name="email" value="" maxlength="80" placeholder="contact email" />
 </div>
 
 <div>
-	<label for="query" class="help">Please enter your questions or queries.</label>
-	<label for="query">Enquiry:</label>
-	<textarea id="query" name="query" rows="4" cols="20"></textarea>
+	<label for="query">enquiry:</label>
+	<textarea id="query" name="query" rows="4" cols="20" placeholder="comments or queries"></textarea>
 </div>
 
 </fieldset>
@@ -76,40 +75,40 @@ For an informal no-obligation discussion of your roof training requirements, ple
 <legend>Roof training services of interest</legend>
 
 <div class="checkbox">
-<input type="checkbox" id="rtonsite" name="rtonsite" />
-<label for="rtonsite">On-site roof training</label>
+<input type="checkbox" id="rtonsite" name="rtonsite" value="on-site training" />
+<label for="rtonsite">on-site roof training</label>
 </div>
 <div class="checkbox">
-<input type="checkbox" id="rtgeneral" name="rtgeneral" />
-<label for="rtgeneral">General roof training</label>
+<input type="checkbox" id="rtgeneral" name="rtgeneral" value="general" />
+<label for="rtgeneral">general roof training</label>
 </div>
 <div class="checkbox">
-<input type="checkbox" id="rtpitched" name="rtpitched" />
-<label for="rtpitched">Pitched roofing courses</label>
+<input type="checkbox" id="rtpitched" name="rtpitched" value="pitched roofing" />
+<label for="rtpitched">pitched roofing courses</label>
 </div>
 <div class="checkbox">
-<input type="checkbox" id="rtlead" name="rtlead" />
-<label for="rtlead">Roof lead welding and bossing courses</label>
+<input type="checkbox" id="rtlead" name="rtlead" value="lead welding and bossing" />
+<label for="rtlead">roof lead welding and bossing courses</label>
 </div>
 <div class="checkbox">
-<input type="checkbox" id="rtsolar" name="rtsolar" />
-<label for="rtsolar">Roof solar installation courses</label>
+<input type="checkbox" id="rtsolar" name="rtsolar" value="solar installation" />
+<label for="rtsolar">roof solar installation courses</label>
 </div>
 <div class="checkbox">
-<input type="checkbox" id="rtsolaraware" name="rtsolaraware" />
-<label for="rtsolaraware">Roof awareness courses for solar installers</label>
+<input type="checkbox" id="rtsolaraware" name="rtsolaraware" value="solar awareness" />
+<label for="rtsolaraware">roof awareness courses for solar installers</label>
 </div>
 <div class="checkbox">
-<input type="checkbox" id="rttiling" name="rttiling" />
-<label for="rttiling">Roof slating and tiling courses</label>
+<input type="checkbox" id="rttiling" name="rttiling" value="slating and tiling" />
+<label for="rttiling">roof slating and tiling courses</label>
 </div>
 <div class="checkbox">
-<input type="checkbox" id="rtvelux" name="rtvelux" />
-<label for="rtvelux">Roof velux training courses</label>
+<input type="checkbox" id="rtvelux" name="rtvelux" value="velux" />
+<label for="rtvelux">roof velux training courses</label>
 </div>
 <div class="checkbox">
-<input type="checkbox" id="rtgrants" name="rtgrants" />
-<label for="rtgrants">Roof training grants and funding</label>
+<input type="checkbox" id="rtgrants" name="rtgrants" value="grants and funding" />
+<label for="rtgrants">roof training grants and funding</label>
 </div>
 
 <div class="button">

@@ -2,7 +2,7 @@
   "name": "rooftrain",
   "version": "1.0.0",
   "description": "RoofTrain UK professional roof-training courses",
-  "author": "Craig Buckler",
+  "author": "RoofTrain UK",
   "main": "gulp build",
   "site": {
     "name": "RoofTrain UK",

@@ -3,12 +3,26 @@
 
   fill: $color-logo;
 
+  .top {
+    transition: all 0.5s linear 1s;
+  }
+
   .roof {
     fill: $color-logo-roof;
+    transition: all 0.5s linear 0s;
   }
 
   .train {
     fill: $color-logo-train;
+    transition: all 0.5s linear 0.5s;
+  }
+
+}
+
+a:hover .rooftrain, a:focus .rooftrain {
+
+  .top, .roof, .train {
+    fill: #fff;
   }
 
 }

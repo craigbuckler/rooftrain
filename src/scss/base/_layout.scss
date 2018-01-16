@@ -1,8 +1,4 @@
 // fallback layout
-header, footer {
-  background-color: $color-logo;
-}
-
 main, aside {
   max-width: 46em;
   padding: 0 1em;
@@ -14,7 +10,7 @@ nav.main, #menu {
   position: absolute;
   top: 0;
   width: 100%;
-  background-color: rgba($color-menu, 0.9);
+  background-color: $color-menu;
 }
 
 .menuopen nav.main {
@@ -23,12 +19,14 @@ nav.main, #menu {
 
 #logo, #menuopen {
   float: left;
+  height: $menuheight - 0.25rem;
   font-size: 1.5em;
-  margin: 0.2em 2vw 0.4em;
+  margin: 0.05em 0 0.2em 5vw;
 }
 
 #menuopen {
   float: right;
+  margin: 0.05em 5vw 0.2em 0;
 }
 
 // grid layout

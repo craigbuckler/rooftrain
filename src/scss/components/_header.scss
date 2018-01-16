@@ -1,12 +1,44 @@
 // header and hero
+$header-height: 50vh;
+$header-image: $header-height * 0.9;
+
 header {
 
   position: relative;
-  min-height: 4em;
+  height: $header-height;
+  margin-top: $menuheight;
+
+  .back {
+
+    width: 100%;
+    height: $header-image;
+    background-color: $color-menu;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+      filter: blur(0.7vw) opacity(0.4);
+      transform: scale(1.1);
+    }
+  }
 
   .hero {
 
-    max-height: 100vh;
+    position: absolute;
+    width: $header-image;
+    max-width: 90vw;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: $color-back;
+    border: 6px solid $color-back;
+
+    @include respond('medium') {
+      left: auto;
+      right: 5vw;
+    }
 
     &:after {
       position: absolute;
@@ -19,27 +51,15 @@ header {
       will-change: background-color;
     }
 
-    &.progressive:not(.replace) {
-
-      &:after {
-        animation: 1s linear 1.2s forwards overlayhero;
-      }
-
-    }
-
     & + .quote {
       transform: translateY(-99em);
     }
 
     &.progressive:not(.replace) {
 
-      &:after {
-        animation: 1s linear 1.2s forwards overlayhero;
-      }
-
       & + .quote {
         will-change: filter, transform;
-        animation: 1s ease-out 1.5s forwards quotehero;
+        animation: 1s cubic-bezier(0.8,0.1,0.6,1.6) 1.5s forwards quotehero;
       }
 
     }
@@ -47,21 +67,21 @@ header {
   }
 
   .quote, .cta {
+    display: none;
     position: absolute;
     font-size: 2em;
-    top: 50%;
-    left: 3vw;
-    right: 3vw;
-    text-align: center;
+    top: 10%;
+    left: 5vw;
+    right: calc(#{$header-image} + 15vw);
     line-height: 1.05;
     color: $color-back;
   }
 
   .cta {
-    display: none;
     font-size: 1.5em;
+    text-align: center;
     top: auto;
-    bottom: 10%;
+    bottom: 20%;
 
     a {
       display: block;
@@ -70,24 +90,22 @@ header {
       margin: 0 auto;
       color: $color-back;
       border: 2px solid $color-back;
-      will-change: color, border-color;
-      transition: all 0.3s linear;
+      will-change: color, border-color, box-shadow, text-shadow;
+      transition: all 0.2s linear;
 
       &:hover, &focus {
-        color: $color-logo;
-        border-color: $color-logo;
+        color: #fff;
+        border-color: #fff;
+        text-shadow: 0 0 3px #fff;
+        box-shadow: 0 0 8px #fff;
       }
 
     }
   }
 
-  @include respond('small') {
+  @include respond('medium') {
 
-    .quote {
-      top: 30%;
-    }
-
-    .cta {
+    .quote, .cta {
       display: block;
     }
 
@@ -101,18 +119,13 @@ header {
 
 
 // animation
-@keyframes overlayhero {
-	0% { background-color: rgba($color-fore, 0); }
-	100% { background-color: rgba($color-fore, 0.8); }
-}
-
 @keyframes quotehero {
 	0% {
-    filter: blur(30px);
-    transform: translateY(-2em);
+    filter: blur(10px) opacity(0);
+    transform: translateX(-5vw);
   }
 	100% {
-    filter: blur(0px);
-    transform: translateY(0);
+    filter: blur(0px) opacity(1);
+    transform: translateX(0);
   }
 }
