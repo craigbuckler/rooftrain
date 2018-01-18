@@ -6,7 +6,7 @@ hero: v1515518078/train/solar1.jpg
 heroquote: expert roof solar panel installation courses
 ctatext: contact us
 ctalink: contact-us/
-tag: course
+tag: course, solar
 priority: 0.86
 ---
 

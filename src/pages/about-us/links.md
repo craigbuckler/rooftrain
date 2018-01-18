@@ -2,7 +2,7 @@
 title: Links to associated roofing companies
 menu: associations
 description: Links to roofing and other companies associated with RoofTrain UK.
-hero: v1515518076/train/learning2.jpg
+hero: v1516298724/train/learning2.jpg
 heroquote: proud to be working with the best roofing companies in the industry
 ctatext: contact us
 ctalink: contact-us/

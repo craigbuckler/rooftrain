@@ -6,7 +6,7 @@ hero: v1515518025/train/tiling2.jpg
 heroquote: up-skilling courses for experienced roofers
 ctatext: contact us
 ctalink: contact-us/
-tag: course
+tag: course, tiling
 priority: 0.84
 ---
 

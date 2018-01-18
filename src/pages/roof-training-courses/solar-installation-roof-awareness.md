@@ -6,7 +6,7 @@ hero: v1515518078/train/solar2.jpg
 heroquote: roof safety courses for solar panel installers
 ctatext: contact
 ctalink: contact-us/
-tag: course
+tag: course, solar
 priority: 0.85
 ---
 

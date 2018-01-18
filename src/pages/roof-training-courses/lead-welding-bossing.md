@@ -6,7 +6,7 @@ hero: v1515518078/train/leading1.jpg
 heroquote: essential lead roofing skills for roofers, slaters, and tilers
 ctatext: contact us
 ctalink: contact-us/
-tag: course
+tag: course, lead
 priority: 0.88
 ---
 
