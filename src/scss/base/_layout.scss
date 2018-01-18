@@ -37,7 +37,7 @@ nav.main, #menu {
     grid-template-columns: minmax(4vw,1fr) minmax(15em,35em) minmax(4vw,1fr);
   }
 
-  header, footer, nav.main {
+  header, footer, nav.main, aside.accreditation {
     grid-column: 1 / 4;
   }
 

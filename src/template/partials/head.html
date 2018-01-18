@@ -58,10 +58,6 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="<%= language %>">
 
-<% if (hero) { %>
-  <meta property="og:image" content="<%- imagecdn %><%- hero %>">
-<% } %>
-
 <!-- Twitter -->
 <meta property="twitter:card" content="summary">
 
@@ -70,8 +66,14 @@
   <meta property="twitter:creator" content="<%= twitter %>">
 <% } %>
 
+<meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:title" content="<%= title %>">
 <meta property="twitter:description" content="<%= description %>">
+
+<% if (hero) { %>
+  <meta property="og:image" content="<%- imagecdn %><%- hero %>">
+  <meta property="twitter:image:src" content="<%- imagecdn %><%- hero %>">
+<% } %>
 
 </head>
 <body<%- (menu ? ' id="' + menu + '"' : '') %>>

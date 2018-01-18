@@ -2,6 +2,7 @@
 
 .list {
 
+  clear: both;
   margin: 1em 0;
 
   ul, li {
@@ -16,9 +17,13 @@
   }
 
   li {
-    flex: 1 1 10em;
+    flex: 1 1 12em;
     margin: 1vmin;
     border: 1px solid $color-fore;
+  }
+
+  li#roof-training-centre {
+    flex-basis: 100%;
   }
 
   a {
@@ -38,19 +43,6 @@
     overflow: hidden;
   }
 
-  img {
-    display: block;
-    width: 100%;
-    max-width: auto;
-    transform: scale(1);
-    will-change: transform;
-    transition: transform 3s ease-in-out;
-  }
-
-  a:hover img, a:focus img {
-    transform: scale(1.2);
-  }
-
   h2, p {
     line-height: 1.1;
     margin: 0.3rem 1rem;
@@ -58,6 +50,29 @@
 
   p.date {
     font-size: 0.75em;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    max-width: auto;
+    transform: scale(1);
+    will-change: transform;
+    transition: transform 2s ease-in-out;
+  }
+
+  a:hover, a:focus {
+
+    background-color: rgba($color-logo-train, 0.2);
+
+    img {
+      transform: scale(1.1);
+    }
+
+    h2 {
+      color: $color-logo;
+    }
+
   }
 
 }

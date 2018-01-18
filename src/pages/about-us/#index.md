@@ -2,21 +2,27 @@
 title: About RoofTrain UK
 menu: about us
 description: RoofTrain UK is the UK's best provider of roof training courses for novice roofers and expert professionals in the roofing and construction industries.
-hero: v1513974726/works/consult.jpg
-heroquote: expert roof training, professional roofing results
-ctatext: contact
+hero: v1515518078/train/team2.jpg
+heroquote: expert roof training with professional roofing results
+ctatext: contact us
 ctalink: contact-us/
 priority: 0.7
 ---
 
+> There is a good level of skill within the roofing industry which is now being recognised.
+
 RoofTrain UK is run by Alan Lander, a professional roofer with more than 40 years experience in the industry.
 
-For the past 30 years Alan has run Roofcraft (Exeter) Ltd, a successful roofing company based in Exeter, Devon. Since 2001, Alan has been involved in roof training and assessing, teaching slating, tiling and assessing at NVQ Levels 2 and 3 for the South Wales & South West Roofing Training Group.
+<figure data-href="[imagecdn]v1515518076/train/alan-lander.jpg" class="progressive replace inline">
+  <img src="[imagecdn]c_scale,w_50/v1515518076/train/alan-lander.jpg" alt="Alan Lander, RoofTrain" class="preview" />
+</figure>
 
-The roof training has been extended to include lead dressing and welding, roof window installations, solar thermal and photovoltaic installations (from the roofing aspect) as well as on-site courses.
+For the past 30 years Alan has run Roofcraft (Exeter) Ltd, a successful roofing company based in Exeter, Devon. Since 2001, Alan has been involved in roof training and assessing. He has taught slating, tiling and assessing at NVQ Levels 2 and 3 for the [South Wales & South West Roofing Training Group](http://www.swrtg.co.uk/).
 
-> There is a good level of skill within the roofing industry, which is now being recognised, and employers should be made more aware of the benefits of the continual skills development of their operatives
+> Employers should be made more aware of the benefits of the continual skills development of their operatives
 
-Alan now intends to devote his time to developing and delivering roof training courses to both apprentices and more experienced roofers and comments.
+The roof training options have been extended to include lead dressing and welding, roof window installations, solar thermal and photovoltaic installations (from the roofing aspect) as well as on-site courses.
 
-*Will your roofers be next to climb on board the RoofTrain!*
+Alan now devotes his time to developing and delivering roof training courses to both apprentices and more experienced roofers.
+
+*Will your roofers be next to climb on board the RoofTrain?!*

@@ -28,23 +28,27 @@ pre {
 	font-family: $font-mono;
 }
 
-h1, h2, h3, strong {
+h1, h2 {
+  clear: both;
+  font-size: 1.8rem;
   font-weight: 400;
-  @include reset;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  padding: 0;
   margin: 1em 0 0 0;
 }
 
-h1 {
-  line-height: 1;
-  letter-spacing: -0.05em;
+h2 {
+  font-size: 1.4rem;
+  margin-top: 2em;
 }
 
 p {
   line-height: 1.4;
-  margin: 1em 0 0 0;
+  margin: 1em 0 1px 0;
 }
 
-h2 + p, h3 + p {
+h2 + p {
   margin-top: 0.2em;
 }
 
@@ -76,8 +80,8 @@ blockquote {
   position: relative;
   margin-top: 3rem;
   margin-bottom: 3rem;
-  padding: 1em;
-  color: $color-back;
+  padding: 0.5em 1em 1em;
+  color: #fff;
   background-color: $color-fore;
 
   p {
@@ -86,23 +90,14 @@ blockquote {
     line-height: 1.1;
     text-align: center;
     margin: 0;
-
-    &:before {
-      float: left;
-      font-family: serif;
-      content: '\201c';
-      font-style: normal;
-      font-size: 3em;
-      margin-top: -0.3em;
-    }
   }
 
   cite {
     display: block;
     font-size: 0.7em;
     font-weight: 600;
-    font-style: italic;
-    margin-top: 0.4em;
+    font-style: normal;
+    margin-top: 0.5em;
   }
 
   @include respond('small') {
@@ -146,6 +141,14 @@ a:hover, a:active, a:focus {
   color: lighten($color-logo, 20%);
 }
 
+figure {
+  margin: 1em 0 0 0;
+}
+
+figure.inline {
+  box-shadow: 0 2px 5px $color-fore;
+}
+
 img {
   display: block;
   width: auto;
@@ -155,16 +158,33 @@ img {
   user-select: none;
 }
 
+hr {
+  clear: both;
+  border: 0 none;
+}
+
 .articleinfo {
   font-size: 0.85em;
   padding-bottom: 0.3em;
   border-bottom: 3px solid lighten($color-fore, 70%);
 }
 
-@include respond('medium') {
+@include respond('small') {
 
   .articleinfo {
     text-align: right;
+  }
+
+  figure.inline {
+    float: left;
+    width: calc(50% + 2em);
+    margin: 1em 2em 1em -4vw;
+  }
+
+  figure.inline.alt {
+    float: right;
+    width: 50%;
+    margin: 1em -4vw 1em 2em;
   }
 
 }

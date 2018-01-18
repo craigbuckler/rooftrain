@@ -1,10 +1,12 @@
 // logo
+$logo-animation: 0.3s;
+
 .rooftrain {
 
   fill: $color-logo;
 
   .top {
-    transition: all 0.5s linear 1s;
+    transition: all 0.5s linear (2 * $logo-animation);
   }
 
   .roof {
@@ -14,7 +16,7 @@
 
   .train {
     fill: $color-logo-train;
-    transition: all 0.5s linear 0.5s;
+    transition: all 0.5s linear $logo-animation;
   }
 
 }

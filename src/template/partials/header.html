@@ -13,12 +13,14 @@
   <% if (heroquote) { %>
   <section class="quote">
     <q><%- heroquote %></q>
-    <% if (herocite) { %> <cite><%- herocite %></cite><% } %>
+
+    <% if (ctalink && ctatext) { %>
+      <a href="[root]<%- ctalink %>" class="cta"><%- ctatext %></a>
+    <% } %>
+
   </section>
   <% } %>
 
-  <% if (ctalink && ctatext) { %>
-    <section class="cta"><a href="[root]<%- ctalink %>" class="ghost button"><%- ctatext %></a></section>
-  <% } %>
+
 
 </header>

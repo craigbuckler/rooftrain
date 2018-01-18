@@ -2,9 +2,9 @@
 title: Roof training courses and qualifications
 menu: roof training
 description: RoofTrain UK provide a selection of roof training courses for professional roofers new to the industry or with many years experience.
-hero: v1513975289/works/open.jpg
-heroquote: roof training courses for novices and experts
-ctatext: contact
+hero: v1515518025/train/tiling3.jpg
+heroquote: roof training courses for all levels of experience
+ctatext: contact us
 ctalink: contact-us/
 priority: 0.9
 ---

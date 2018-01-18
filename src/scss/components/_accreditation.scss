@@ -1,0 +1,27 @@
+// accreditations
+.accreditation {
+
+  width: 100%;
+  max-width: none;
+  padding: 1rem 4vw;
+  margin-top: 1.5rem;
+  background-color: #fff;
+  border-top: 5px solid $color-menu;
+
+  ul, li {
+    list-style-type: none;
+    @include reset-list;
+  }
+
+  ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  li {
+    margin: 1vmax;
+  }
+
+}

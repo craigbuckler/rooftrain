@@ -2,9 +2,9 @@
 title: Roof solar panel installation
 menu: solar installation
 description: Our one-day roof training course has been designed to demonstrate the correct installation of solar and photo voltaic collectors for integrated installation and roof mounted installation.
-hero: v1513974726/works/train.jpg
+hero: v1515518078/train/solar1.jpg
 heroquote: expert roof solar panel installation courses
-ctatext: contact
+ctatext: contact us
 ctalink: contact-us/
 tag: course
 priority: 0.86

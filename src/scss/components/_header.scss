@@ -51,61 +51,46 @@ header {
       will-change: background-color;
     }
 
-    & + .quote {
-      transform: translateY(-99em);
-    }
-
-    &.progressive:not(.replace) {
-
-      & + .quote {
-        will-change: filter, transform;
-        animation: 1s cubic-bezier(0.8,0.1,0.6,1.6) 1.5s forwards quotehero;
-      }
-
-    }
-
   }
 
-  .quote, .cta {
+  .quote {
     display: none;
     position: absolute;
     font-size: 2em;
-    top: 10%;
+    top: 20%;
     left: 5vw;
     right: calc(#{$header-image} + 15vw);
     line-height: 1.05;
     color: $color-back;
+    will-change: filter, transform;
+    transform: translateY(-99em);
+    animation: 1s cubic-bezier(0.8,0.1,0.6,1.6) 0.5s forwards quotehero;
   }
 
-  .cta {
-    font-size: 1.5em;
+  a.cta {
+    display: block;
+    font-size: 0.75em;
+    width: 6em;
     text-align: center;
-    top: auto;
-    bottom: 20%;
+    padding: 0.1em 0 0.3em;
+    margin: 1.5em auto 0;
+    color: $color-back;
+    border: 2px solid $color-back;
+    will-change: color, border-color, box-shadow, text-shadow;
+    transition: all 0.2s linear;
 
-    a {
-      display: block;
-      width: 6em;
-      padding: 0.1em 0 0.3em;
-      margin: 0 auto;
-      color: $color-back;
-      border: 2px solid $color-back;
-      will-change: color, border-color, box-shadow, text-shadow;
-      transition: all 0.2s linear;
-
-      &:hover, &focus {
-        color: #fff;
-        border-color: #fff;
-        text-shadow: 0 0 3px #fff;
-        box-shadow: 0 0 8px #fff;
-      }
-
+    &:hover, &focus {
+      color: #fff;
+      border-color: #fff;
+      text-shadow: 0 0 3px #fff;
+      box-shadow: 0 0 8px #fff;
     }
+
   }
 
   @include respond('medium') {
 
-    .quote, .cta {
+    .quote {
       display: block;
     }
 

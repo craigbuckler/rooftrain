@@ -11,9 +11,22 @@ priority: 1.0
 
 Welcome to RoofTrain UK. We provide professional roof training courses for roofers, builders, electricians, plumbers and others in the building and construction industries.
 
-All our courses are run from our specially-built roof training centre in Devon. The company and training is operated by Alan Lander, a dedicated roofer and training professional with more than 40 years commercial experience. For more information:
+<figure data-href="[imagecdn]v1515518076/train/alan-lander.jpg" class="progressive replace inline">
+  <img src="[imagecdn]c_scale,w_50/v1515518076/train/alan-lander.jpg" alt="Alan Lander, RoofTrain" class="preview" />
+</figure>
+
+All our courses are run from our specially-built roof training centre near Exeter in Devon.
+
+The company and all training courses are operated by Alan Lander, a dedicated roofer and training professional with more than 40 years' commercial and training experience.
+
+
+## Roofing course information
+Find out more about our roofing courses and facilities:
+
+> I have more than 40 years' commercial roofing experience
+<cite>Alan Lander, RoofTrain UK</cite>
 
 * [professional roof training courses]([root]roof-training-courses/)
 * [our dedicated roof training centre]([root]about-us/roof-training-centre/)
-* [find out more about RoofTrain UK]([root]about-us/)
+* [about RoofTrain UK]([root]about-us/)
 * [contact us]([root]contact-us/) to discuss your roof training requirements.
