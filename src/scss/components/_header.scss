@@ -1,6 +1,7 @@
 // header and hero
 $header-height: 50vh;
 $header-image: $header-height * 0.9;
+$header-small: 0.5;
 
 header {
 
@@ -86,6 +87,18 @@ header {
       box-shadow: 0 0 8px #fff;
     }
 
+  }
+
+  &.small {
+    height: $header-height * $header-small;
+
+    .back {
+      height: $header-image * $header-small;
+    }
+
+    .hero {
+      width: $header-image * $header-small;
+    }
   }
 
   @include respond('medium') {

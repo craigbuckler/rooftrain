@@ -1,4 +1,4 @@
-<header>
+<header<% if (typeof heroclass === 'string') { %> class="<%- heroclass %>"<% } %>>
 
   <div class="back">
     <img src="<%- imagecdn %>c_scale,w_50/<%- hero %>" alt="<%= hero.replace(/.+\/([^/]+)\..+$/, '$1').trim(); %>" />
@@ -20,7 +20,5 @@
 
   </section>
   <% } %>
-
-
 
 </header>

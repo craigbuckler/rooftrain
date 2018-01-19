@@ -48,6 +48,9 @@ The training course enables access to a full CITB-ConstructionSkills grant for e
 
 ## What should you bring?
 
+> Alan Lander is very knowledgeable and experienced in his field. A good course and very worthwhile.
+<cite>Steve Watkinson, EnergyMyWay</cite>
+
 Roofing course attendees must bring safety boots, a hard hat, personal small tools and lunch. Other PPE, tools and materials required for the training course are provided.
 
 

@@ -1,9 +1,10 @@
 ---
 title: Contact us
 menu: contact us
-description: Expert roof training courses
-hero: v1513974724/works/contact.jpg
-heroquote: Expert roof training courses
+description: Expert roof training courses for novice and experienced roofers.
+hero: v1516298724/train/alan-lander.jpg
+heroclass: small
+heroquote: book your next roofing course today!
 priority: 0.5
 ---
 

@@ -10,10 +10,13 @@ tag: course, solar
 priority: 0.86
 ---
 
+<figure data-href="[imagecdn]v1515518078/train/solar2.jpg" class="progressive replace inline">
+  <img src="[imagecdn]c_scale,w_50/v1515518078/train/solar2.jpg" alt="solar installation lessons" class="preview" />
+</figure>
+
 Using our flexible training methods, we aim to give all operatives the best chance to enhance their skills by allowing them to use their existing roofing knowledge to assist in the installation of solar panels.
 
 These one day roof training courses have been designed to demonstrate the correct installation of solar thermal and photo voltaic collectors for on-roof, in-roof or fully-integrated installations.
-
 
 # Who should attend?
 
@@ -21,6 +24,9 @@ Roofers and builders who must be competent in working at height.
 
 
 ## Benefits
+
+> this training has enabled us to approach our first install with confidence
+<cite>Dave Roddick, Avonline</cite>
 
 * increase level of employability by having an additional roofing skill
 * be part of the rapidly-increasing solar industry

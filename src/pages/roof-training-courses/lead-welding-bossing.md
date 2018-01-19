@@ -23,6 +23,9 @@ On completion of the course, novice roofers should understand the health and saf
 
 ## Who should attend?
 
+> I highly recommend this course. It was extremely informative whilst remaining enjoyable.
+<cite>Reeve Miles, Scott Miles Roofing Ltd</cite>
+
 Whilst there are no special entry requirements this course would be useful for roofers and building contractors who want to become more skilled in the prefabrication and installation of typical lead flashing details.
 
 
@@ -35,15 +38,24 @@ Whilst there are no special entry requirements this course would be useful for r
 
 ## What should you bring?
 
+> Rooftrain has everything you need to become a better roofer. The equipment and teaching is the best. Thank you.
+<cite>Ciaran Quinn, Scott Miles Roofing Ltd</cite>
+
 Apprentice roofers should bring safety boots. All the tools, materials, lead sheet required for the roof training course are included as well as refreshments and lunch.
 
 
 ## Dates & venue
 
+> Alan showed me new ways to make leadwork easier
+<cite>Steven Dando</cite>
+
 Courses are held at our roof training centre in Exeter, Devon. However, a mobile on-site roof training facility is also available.
 
 
 ## Training course dates and venue
+
+> a well run class, very informal, with helpful tips from well trained staff
+<cite>Colin Joyce, RP Smith & Son</cite>
 
 Roofing courses are held at our [dedicated roof training centre in Exeter, Devon]([root]about-us/roof-training-centre/). A mobile on-site roof training facility is also available. Training dates and course durations are flexible and can be adapted for your circumstances.
 

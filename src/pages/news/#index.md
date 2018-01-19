@@ -1,7 +1,7 @@
 ---
 title: News and articles
-description: News and articles from RoofTrain UK, the roofing and training course industries.
-hero: v1513974725/works/article.jpg
+description: News and articles from RoofTrain UK and the roofing and training course industries.
+hero: v1516299975/train/team4.jpg
 heroquote: the latest roof training news and events
 ctatext: contact
 ctalink: contact-us/

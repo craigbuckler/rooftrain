@@ -6,7 +6,7 @@ hero: v1516298724/train/plans.jpg
 heroquote: specialist roof estimation programme
 ctatext: contact us
 ctalink: contact-us/
-tag: course
+tag: course, estimating
 priority: 0.87
 ---
 
@@ -23,6 +23,9 @@ The two-day course is delivered at our roofing training centre in a straight-for
 
 ## Course content
 
+> a good level of information and simple tips to help estimating
+<cite>Matthew, course attendee</cite>
+
 Training course content includes:
 
 * terminology and design
@@ -34,5 +37,8 @@ Although intended for merchants, the course would benefit roofing and building c
 
 
 ## Training course dates and venue
+
+> Alan offers a high level of individual support
+<cite>Martin, course attendee</cite>
 
 Roofing courses are held at our [dedicated roof training centre in Exeter, Devon]([root]about-us/roof-training-centre/). Please [contact us]([root]contact-us/) to arrange your lessons.

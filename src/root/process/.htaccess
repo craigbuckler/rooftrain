@@ -12,11 +12,11 @@ RewriteEngine On
 /* @if !devBuild */
 # enforce HTTPS
 RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://www.optimalworks.net/$1 [L,R=301]
+RewriteRule ^(.*)$ https://rooftrain.co.uk/$1 [L,R=301]
 
-# enforce www
-RewriteCond %{HTTP_HOST} !^www\.
-RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [L,R=301]
+# remove www
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 
 # remove index.html
 RewriteCond %{REQUEST_FILENAME} !-f

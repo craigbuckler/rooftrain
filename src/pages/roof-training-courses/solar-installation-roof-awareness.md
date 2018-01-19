@@ -14,6 +14,9 @@ These one-day roof training courses are aimed at non-roofers such as builders, p
 
 ## Benefits
 
+> Clients continue to send employees to us for training. It proves our methods meet their requirements.
+<cite>Alan Lander, RoofTrain</cite>
+
 * course attendees learn how to assess the integrity of a roof
 * apprentices learn how to make the right connections
 * learn how to mount and layout a roof solar system
