@@ -8,7 +8,7 @@
 
   'use strict';
 
-  if (ow.devBuild || location.host.indexOf('.net') < 0) return;
+  if (ow.devBuild || location.host.indexOf('.co.uk') < 0) return;
 
   // load analytics API
   setTimeout(function() {

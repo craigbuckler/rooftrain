@@ -336,6 +336,19 @@
   });
 
 
+  // download folder
+  const download = {
+    src         : dir.src + 'download/**/*',
+    build       : dir.build + 'download/'
+  };
+
+  // download processing
+  gulp.task('download', () => {
+    return gulp.src(download.src)
+      .pipe(newer(download.build))
+      .pipe(gulp.dest(download.build));
+  });
+
 
   // browser-sync options
   const syncOpts = {
@@ -390,7 +403,7 @@
 
 
   // run all tasks immediately
-  gulp.task('build', ['root', 'html', 'css', 'js', 'jssingle', 'jspwa']);
+  gulp.task('build', ['root', 'html', 'css', 'js', 'jssingle', 'jspwa', 'download']);
 
 
   // default task

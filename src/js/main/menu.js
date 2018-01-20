@@ -29,7 +29,7 @@
 
 
   // body
-  document.body.addEventListener('click', function(e) {
+  document.body.addEventListener('click', function() {
 
     if (menu.classList.contains('open')) {
       menu.classList.remove('open');

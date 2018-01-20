@@ -7,7 +7,7 @@ heroquote: up-skilling courses for experienced roofers
 ctatext: contact us
 ctalink: contact-us/
 tag: course, tiling
-priority: 0.84
+priority: 0.87
 ---
 
 We aim to give all operatives the best chance to enhance their roofing skills whilst continuing to develop enthusiasm and interest in a career in the roof, slating and tiling industry.

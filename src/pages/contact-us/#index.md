@@ -8,34 +8,41 @@ heroquote: book your next roofing course today!
 priority: 0.5
 ---
 
-For an informal no-obligation discussion of your roof training requirements, please contact us directly or use our enquiry form:
+For an informal no-obligation discussion of your roof training requirements, please contact us directly:
 
 <div class="vcard" itemscope="itemscope" itemtype="http://schema.org/Organization">
-<dl class="tel">
-<dt class="type" title="telephone">telephone</dt>
-<dd class="value" title="telephone" itemprop="telephone"><a href="tel:+44-1392-254935">01392 254935</a></dd>
-</dl>
-<dl class="tel">
-<dt class="type" title="mobile">mobile</dt>
-<dd class="value" title="mobile"><a href="tel:+44-7970-792551">07970 792 551</a></dd>
-</dl>
-<dl>
-<dt>email</dt>
-<dd><a href="/contact-us" class="email" itemprop="email" title="email us">info {at} rooftrain dot co dot uk</a></dd>
-</dl>
-<p><a href="/" class="fn org url" itemprop="name">RoofTrain UK</a></p>
-<ul class="adr" itemprop="address" itemscope="itemscope" itemtype="http://schema.org/PostalAddress">
-<li class="street-address" itemprop="streetAddress">Brooklands Mill</li>
-<li class="locality" itemprop="addressLocality">Nadderwater, Exeter</li>
-<li class="region" itemprop="addressRegion">Devon</li>
-<li class="postal-code" itemprop="postalCode">EX4 2JG</li>
-<li class="country-name" itemprop="addressCountry">United Kingdom</li>
-</ul>
-<p class="add"><a href="[root]downloads/rooftrainuk.vcf" title="download VCF file">add us to your address book</a></p>
+
+  <p><a href="[rootURL]" class="fn org url" itemprop="name">RoofTrain UK</a></p>
+  <ul class="adr" itemprop="address" itemscope="itemscope" itemtype="http://schema.org/PostalAddress">
+    <li class="street-address" itemprop="streetAddress">Brooklands Mill</li>
+    <li class="locality" itemprop="addressLocality">Nadderwater, Exeter</li>
+    <li class="region" itemprop="addressRegion">Devon</li>
+    <li class="postal-code" itemprop="postalCode">EX4 2JG</li>
+    <li class="country-name" itemprop="addressCountry">United Kingdom</li>
+  </ul>
+
+  <dl class="tel">
+    <dt class="type" title="telephone">telephone</dt>
+    <dd class="value" title="telephone" itemprop="telephone"><a href="tel:+44-1392-254935">01392 254935</a></dd>
+  </dl>
+
+  <dl class="tel">
+    <dt class="type" title="mobile">mobile</dt>
+    <dd class="value" title="mobile"><a href="tel:+44-7970-792551">07970 792 551</a></dd>
+  </dl>
+
+  <dl>
+    <dt>email</dt>
+    <dd><a href="/contact-us" class="email" itemprop="email" title="email us">info {at} rooftrain dot co dot uk</a></dd>
+  </dl>
+
+  <p><a href="[root]download/rooftrainuk.vcf" title="download VCF file">add us to your address book</a></p>
 
 </div>
 
+<div id="map"></div>
 
+<!--
 <form id="enquiry" action="[root]ws/enquiry" method="post">
 
 <fieldset>
@@ -118,3 +125,4 @@ For an informal no-obligation discussion of your roof training requirements, ple
 
 </fieldset>
 </form>
+-->
