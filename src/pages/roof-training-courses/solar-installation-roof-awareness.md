@@ -4,7 +4,7 @@ menu: solar awareness
 description: One-day roof training aimed builders, plumbers and electricians. The course provides an insight to roofing procedures necessary to ensure a watertight seal when installing solar panels and connectors.
 hero: v1515518078/train/solar2.jpg
 heroquote: roof safety courses for solar panel installers
-ctatext: contact
+ctatext: contact us
 ctalink: contact-us/
 tag: course, solar
 priority: 0.85

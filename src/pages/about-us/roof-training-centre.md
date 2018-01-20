@@ -37,7 +37,7 @@ The training centre is located near Exeter in Devon:
 
   <dl class="tel">
     <dt class="type" title="telephone">telephone</dt>
-    <dd class="value" title="telephone" itemprop="telephone"><a href="tel:+44-1392-254935">01392 254935</a></dd>
+    <dd class="value" title="telephone" itemprop="telephone"><a href="tel:+44-1392-254935">01392 254 935</a></dd>
   </dl>
 
   <dl class="tel">
