@@ -21,12 +21,14 @@
     },
     map;
 
-  // load maps API
+  // load maps API after delay
   map = ow.lib.id(cfg.id);
   if (map) {
 
-    window.addEventListener('scrollresize', mapInView, false);
-    mapInView();
+    setTimeout(function() {
+      window.addEventListener('scrollresize', mapInView, false);
+      mapInView();
+    }, 2000);
 
   }
 

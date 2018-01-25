@@ -38,7 +38,6 @@ nav.active {
     width: 2em;
     white-space: nowrap;
     overflow: hidden;
-    transform: scale(0.7);
   }
 
 }
@@ -50,9 +49,11 @@ nav.active {
   right: 0;
   top: $menuheight;
   bottom: 0;
+  font-size: 1.2rem;
   transform: translateX(100%);
   will-change: transform;
   transition: transform 0.2s ease-in-out;
+  user-select: none;
 
   &.open {
     transform: translateX(0%);
@@ -112,6 +113,8 @@ nav.active {
   }
 
   #menu {
+
+    font-size: 1rem;
 
     a, strong {
       width: auto;

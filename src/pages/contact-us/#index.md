@@ -1,7 +1,7 @@
 ---
 title: Contact us
 menu: contact us
-description: Expert roof training courses for novice and experienced roofers.
+description: Expechk roof training courses for novice and experienced roofers.
 hero: v1516298724/train/alan-lander.jpg
 heroclass: small
 heroquote: book your next roofing course today!
@@ -40,89 +40,78 @@ For an informal no-obligation discussion of your roof training requirements, ple
 
 </div>
 
-<div id="map"></div>
 
-<!--
-<form id="enquiry" action="[root]ws/enquiry" method="post">
+<form action="https://www.optimalworks.net/ws/enquiry/" method="post" class="validator">
 
-<fieldset>
-<legend>Your details</legend>
+  <p>Alternatively, please enter your details and we will contact you:</p>
 
-<div>
-	<label for="contact" class="help">Please enter your name.</label>
-	<label for="contact">name:</label>
-	<input type="text" id="contact" name="contact" value="" maxlength="80" placeholder="your name" />
-</div>
+  <div class="formgrid">
 
-<div>
-	<label for="organisation" class="help">Please enter your organisation's name.</label>
-	<label for="organisation">organisation:</label>
-	<input type="text" id="organisation" name="organisation" value="" maxlength="100" placeholder="company name" />
-</div>
+    <p>your details</p>
 
-<div>
-	<label for="telephone" class="help">Please enter your telephone number.</label>
-	<label for="telephone">telephone:</label>
-	<input type="tel" id="telephone" name="telephone" value="" maxlength="20" placeholder="contact number" />
-</div>
+    <input type="text" id="name" name="name" value="" required="required" maxlength="50" />
+    <label for="name">name</label>
 
-<div>
-	<label for="email" class="help">Please enter your email address.</label>
-	<label for="email">email:</label>
-	<input type="email" id="email" name="email" value="" maxlength="80" placeholder="contact email" />
-</div>
+    <input type="text" id="company" name="company" value="" maxlength="100" />
+    <label for="company">company</label>
 
-<div>
-	<label for="query">enquiry:</label>
-	<textarea id="query" name="query" rows="4" cols="20" placeholder="comments or queries"></textarea>
-</div>
+    <input type="tel" id="telephone" name="telephone" value="" minlength="6" maxlength="20" />
+    <label for="telephone">telephone</label>
 
-</fieldset>
+    <input type="email" id="email" name="email" value="" required="required" minlength="6" maxlength="80" />
+    <label for="email">email</label>
 
-<fieldset>
-<legend>Roof training services of interest</legend>
+    <textarea id="query" name="query" rows="4" cols="20" maxlength="500"></textarea>
+    <label for="query">questions</label>
 
-<div class="checkbox">
-<input type="checkbox" id="rtonsite" name="rtonsite" value="on-site training" />
-<label for="rtonsite">on-site roof training</label>
-</div>
-<div class="checkbox">
-<input type="checkbox" id="rtgeneral" name="rtgeneral" value="general" />
-<label for="rtgeneral">general roof training</label>
-</div>
-<div class="checkbox">
-<input type="checkbox" id="rtpitched" name="rtpitched" value="pitched roofing" />
-<label for="rtpitched">pitched roofing courses</label>
-</div>
-<div class="checkbox">
-<input type="checkbox" id="rtlead" name="rtlead" value="lead welding and bossing" />
-<label for="rtlead">roof lead welding and bossing courses</label>
-</div>
-<div class="checkbox">
-<input type="checkbox" id="rtsolar" name="rtsolar" value="solar installation" />
-<label for="rtsolar">roof solar installation courses</label>
-</div>
-<div class="checkbox">
-<input type="checkbox" id="rtsolaraware" name="rtsolaraware" value="solar awareness" />
-<label for="rtsolaraware">roof awareness courses for solar installers</label>
-</div>
-<div class="checkbox">
-<input type="checkbox" id="rttiling" name="rttiling" value="slating and tiling" />
-<label for="rttiling">roof slating and tiling courses</label>
-</div>
-<div class="checkbox">
-<input type="checkbox" id="rtvelux" name="rtvelux" value="velux" />
-<label for="rtvelux">roof velux training courses</label>
-</div>
-<div class="checkbox">
-<input type="checkbox" id="rtgrants" name="rtgrants" value="grants and funding" />
-<label for="rtgrants">roof training grants and funding</label>
-</div>
+    <p>roof training courses of interest</p>
 
-<div class="button">
-	<button type="submit" name="submit" value="send">Send Enquiry</button>
-</div>
+    <input type="checkbox" id="chkgeneral" name="chkgeneral" value="general" />
+    <label for="chkgeneral">general roof training</label>
 
-</fieldset>
+    <input type="checkbox" id="chkonsite" name="chkonsite" value="on-site training" />
+    <label for="chkonsite">on-site roof training</label>
+
+    <input type="checkbox" id="chkpitched" name="chkpitched" value="pitched roofing" />
+    <label for="chkpitched">pitched roofing</label>
+
+    <input type="checkbox" id="chklead" name="chklead" value="lead welding and bossing" />
+    <label for="chklead">lead welding and bossing</label>
+
+    <input type="checkbox" id="chktiling" name="chktiling" value="slating and tiling" />
+    <label for="chktiling">slating and tiling</label>
+
+    <input type="checkbox" id="chksolar" name="chksolar" value="solar installation" />
+    <label for="chksolar">solar installation</label>
+
+    <input type="checkbox" id="chksolaraware" name="chksolaraware" value="solar awareness" />
+    <label for="chksolaraware">roof awareness for solar installers</label>
+
+    <input type="checkbox" id="chkestimate" name="chkestimate" value="roof estimating" />
+    <label for="chkestimate">roof estimating</label>
+
+    <input type="checkbox" id="chkvelux" name="chkvelux" value="velux" />
+    <label for="chkvelux">velux windows</label>
+
+    <input type="checkbox" id="chkgrants" name="chkgrants" value="grants and funding" />
+    <label for="chkgrants">training grants and funding</label>
+
+    <p class="error"></p>
+
+    <p class="submit">sending...</p>
+
+    <button type="submit" name="submit" value="send">send</button>
+
+  </div>
+
+  <p class="posted">Thank you for your enquiry. We will contact you shortly.</p>
+
 </form>
--->
+
+## Roof training centre directions
+Our [roof training centre]([root]about-us/roof-training-centre/) is located near Exeter in Devon. Directions:
+
+* [from Exeter city centre](http://maps.google.co.uk/maps?f=d&saddr=Exeter&daddr=50.729546,-3.571548)
+* [from elsewhere](http://maps.google.co.uk/maps?f=d&saddr=&daddr=50.729546,-3.571548)
+
+<div id="map"></div>

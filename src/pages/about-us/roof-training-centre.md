@@ -1,5 +1,5 @@
 ---
-title: Roof Training Centre
+title: Roof training centre
 menu: training centre
 description: Our dedicated, custom-built roof-training centre offers a safe, warm environment to learn about roofing.
 hero: v1516293054/training-centre1.jpg
@@ -21,7 +21,7 @@ The centre provides a safe, warm environment for novice or professional roofers 
 
 Our custom-built roof training facilities beat other roof training centres because they were designed and constructed by Alan Lander. A professional roofer with more than 40 years experience, Alan has unique roofing industry insight combined with training expertise.
 
-## Roof Training centre directions
+## Roof training centre directions
 The training centre is located near Exeter in Devon:
 
 <div class="vcard" itemscope="itemscope" itemtype="http://schema.org/Organization">
