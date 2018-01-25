@@ -1,5 +1,5 @@
 ---
-title: Redland Apprentice of the Year 2017
+title: Redland apprentice of the year 2017
 description: Tom Knight, a RoofTrain graduate, gains a Highly Commended Award at Redland Apprentice of the Year, 2017.
 hero: v1516299973/train/apprentice1.jpg
 heroquote: continued success for RoofTrain apprentices

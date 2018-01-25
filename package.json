@@ -38,7 +38,7 @@
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "7.2.5",
-    "css-mqpacker": "6.0.1",
+    "css-mqpacker": "6.0.2",
     "cssnano": "3.10.0",
     "del": "3.0.0",
     "gulp": "3.9.1",
@@ -54,13 +54,13 @@
     "gulp-trimlines": "1.0.1",
     "gulp-uglify": "3.0.0",
     "gulp-util": "3.0.8",
-    "jstransformer-ejs": "0.0.3",
+    "jstransformer-ejs": "0.2.0",
     "metalsmith": "2.3.0",
     "metalsmith-beautify": "0.2.0",
     "metalsmith-headings-identifier": "0.0.11",
     "metalsmith-html-minifier": "3.0.0",
     "metalsmith-inline-source": "1.0.6",
-    "metalsmith-layouts": "2.0.0",
+    "metalsmith-layouts": "2.1.0",
     "metalsmith-mapsite": "1.0.4",
     "metalsmith-markdown": "0.2.2",
     "metalsmith-publish": "0.1.5",
@@ -69,6 +69,6 @@
     "vinyl-ftp": "0.6.0"
   },
   "devDependencies": {
-    "browser-sync": "2.23.5"
+    "browser-sync": "2.23.6"
   }
 }
