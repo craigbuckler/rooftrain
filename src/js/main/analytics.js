@@ -8,7 +8,7 @@
 
   'use strict';
 
-  if (!ow.analytics || ow.devBuild || location.host.indexOf('.co.uk') < 0 || !document.head) return;
+  if (!ow.analytics || ow.devBuild || location.host.indexOf('.co') < 0 || !document.head) return;
 
   // load analytics API
   setTimeout(function() {
