@@ -37,7 +37,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "autoprefixer": "7.2.5",
+    "autoprefixer": "8.3.0",
     "css-mqpacker": "6.0.2",
     "cssnano": "3.10.0",
     "del": "3.0.0",
@@ -50,8 +50,8 @@
     "gulp-noop": "1.0.0",
     "gulp-postcss": "7.0.1",
     "gulp-preprocess": "2.0.0",
-    "gulp-sass": "3.1.0",
-    "gulp-strip-debug": "2.0.0",
+    "gulp-sass": "4.0.1",
+    "gulp-strip-debug": "3.0.0",
     "gulp-trimlines": "1.0.1",
     "gulp-uglify": "3.0.0",
     "jstransformer-ejs": "0.2.0",
@@ -69,6 +69,6 @@
     "vinyl-ftp": "0.6.1"
   },
   "devDependencies": {
-    "browser-sync": "2.23.6"
+    "browser-sync": "2.23.7"
   }
 }
