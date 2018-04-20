@@ -248,7 +248,7 @@
         basePath: dir.build
       }),
       require('autoprefixer')({
-        browsers: ['> 2%']
+        browsers: ['> 1%', 'ie 11']
       }),
       require('css-mqpacker')
     ]

@@ -15,13 +15,13 @@
 
   ul {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
   }
 
   li {
-    margin: 1vmax;
+    margin: 1.5vmax;
   }
 
 }
