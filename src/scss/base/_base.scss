@@ -128,7 +128,7 @@ hr {
 	margin: 0.5rem 0;
 }
 
-a:link, a:visited {
+a, a:link, a:visited {
   text-decoration: none;
   color: $color-logo;
 
@@ -155,6 +155,7 @@ img {
   height: auto;
   max-width: 100%;
   @include reset;
+  border: 0 none;
   user-select: none;
 }
 

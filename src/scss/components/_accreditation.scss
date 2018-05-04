@@ -15,13 +15,15 @@
 
   ul {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
   }
 
-  li {
-    margin: 1.5vmax;
+  a {
+    display: block;
+    max-width: 80vw;
+    padding: 1.5vmin;
   }
 
 }

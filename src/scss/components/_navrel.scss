@@ -44,15 +44,14 @@ nav.tag ul {
   margin: 2em;
 
   li {
-    flex: 1 1 6rem;
-    padding: 0;
-    margin: 1.5rem;
+    @include reset-list;
   }
 
-  img {
+  a {
     display: block;
-    max-width: none;
-    margin: auto;
+    max-width: 80vw;
+    padding: 3vmin;
+    border: 0 none;
   }
 
 }

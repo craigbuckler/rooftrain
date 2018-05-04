@@ -37,7 +37,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "autoprefixer": "8.3.0",
+    "autoprefixer": "8.4.1",
     "css-mqpacker": "6.0.2",
     "cssnano": "3.10.0",
     "del": "3.0.0",
@@ -69,6 +69,6 @@
     "vinyl-ftp": "0.6.1"
   },
   "devDependencies": {
-    "browser-sync": "2.23.7"
+    "browser-sync": "2.24.4"
   }
 }
