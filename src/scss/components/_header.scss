@@ -19,7 +19,8 @@ header {
     img {
       width: 100%;
       object-fit: cover;
-      filter: blur(0.7vw) opacity(0.4);
+      opacity: 0.4;
+      filter: blur(0.7vw);
       transform: scale(1.1);
     }
   }

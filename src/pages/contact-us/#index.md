@@ -108,6 +108,7 @@ For an informal no-obligation discussion of your roof training requirements, ple
 
 </form>
 
+
 ## Roof training centre directions
 Our [roof training centre]([root]about-us/roof-training-centre/) is located near Exeter in Devon. Directions:
 
@@ -115,3 +116,9 @@ Our [roof training centre]([root]about-us/roof-training-centre/) is located near
 * [from elsewhere](http://maps.google.co.uk/maps?f=d&saddr=&daddr=50.729546,-3.571548)
 
 <div id="map"></div>
+
+
+## Your privacy
+We are committed to protecting your privacy. We use your contact details to respond to your enquiry, but your personal information will not be stored or shared with other parties without your consent.
+
+Cookies are used on this site to record anonymous usage statistics.
