@@ -12,8 +12,8 @@ priority: 0.69
 
 All off-site roofing lessons are conducted in our dedicated roofing course training centre near Exeter in Devon.
 
-<figure data-href="[imagecdn]v1516293684/training-centre2.jpg" class="progressive replace inline">
-  <img src="[imagecdn]c_scale,w_50/v1516293684/training-centre2.jpg" alt="RoofTrain training centre" class="preview" />
+<figure data-href="[imagecdn]v1516299894/train/training-centre5.jpg" class="progressive replace inline alt">
+  <img src="[imagecdn]c_scale,w_50/v1516299894/train/training-centre5.jpg" alt="RoofTrain training centre" class="preview" />
 </figure>
 
 
@@ -53,10 +53,6 @@ The training centre is located near Exeter in Devon:
 </div>
 
 <div id="map"></div>
-
-<figure data-href="[imagecdn]v1516299894/train/training-centre5.jpg" class="progressive replace inline alt">
-  <img src="[imagecdn]c_scale,w_50/v1516299894/train/training-centre5.jpg" alt="RoofTrain training centre" class="preview" />
-</figure>
 
 Directions:
 

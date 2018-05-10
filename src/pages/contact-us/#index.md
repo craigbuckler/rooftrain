@@ -8,7 +8,7 @@ heroquote: book your next roofing course today!
 priority: 0.5
 ---
 
-For an informal no-obligation discussion of your roof training requirements, please contact us directly:
+For an informal no-obligation discussion of your roof training requirements, please contact us directly ([see our privacy policy]([root]about-us/privacy-policy/)):
 
 <div class="vcard" itemscope="itemscope" itemtype="http://schema.org/Organization">
 
@@ -117,8 +117,3 @@ Our [roof training centre]([root]about-us/roof-training-centre/) is located near
 
 <div id="map"></div>
 
-
-## Your privacy
-We are committed to protecting your privacy. We use your contact details to respond to your enquiry, but your personal information will not be stored or shared with other parties without your consent.
-
-Cookies are used on this site to record anonymous usage statistics.
