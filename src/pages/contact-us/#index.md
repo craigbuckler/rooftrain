@@ -96,6 +96,14 @@ For an informal no-obligation discussion of your roof training requirements, ple
     <input type="checkbox" id="chkgrants" name="chkgrants" value="grants and funding" />
     <label for="chkgrants">training grants and funding</label>
 
+    <p>your contact information</p>
+
+    <input type="checkbox" id="chkkeep" name="chkkeep" value="retain details" />
+    <label for="chkkeep">retain for future enquiries</label>
+
+    <input type="checkbox" id="chkpass" name="chkpass" value="share details" />
+    <label for="chkpass">share with associated ​roof-training ​organisations</label>
+
     <p class="error"></p>
 
     <p class="submit">sending...</p>
