@@ -1,6 +1,6 @@
 ---
-title: Success at SkillBuild national finals
-description: Previous RoofTrain apprentices win at the 2017 SkillBuild national finals.
+title: RoofTrain apprentice awarded second place at 2017 National Skillbuild finals
+description: Previous RoofTrain apprentices are awarded second place at the 2017 SkillBuild national finals.
 hero: v1515518078/train/team3.jpg
 heroquote: silver medals for RoofTrain apprentices
 ctatext: contact us
@@ -14,7 +14,7 @@ layout: article.ejs
   <img src="[imagecdn]c_scale,w_50/v1516299894/train/training-centre3.jpg" alt="SkillBuild national finals" class="preview" />
 </figure>
 
-Many congratulations to Ryan Holland and Tom Thompson of the South West Roofing Training Group who have both took part in the National Final of SkillBuild for roofing at the NEC Birmingham on 15-19 November 2017.
+Many congratulations to Ryan Holland and Tom Thompson of the South West Roofing Training Group who both took part in the National Final of SkillBuild for roofing at the NEC Birmingham on 15-19 November 2017.
 
 Ryan of Wheeler Roofing Ltd, Truro and Tom of A L King Roofing Ltd, Melksham gained a place in the final to compete against six other competitors from around the UK. Tom Thompson was awarded a Silver Medal.
 

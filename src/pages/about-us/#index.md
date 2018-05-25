@@ -2,7 +2,7 @@
 title: About RoofTrain UK
 menu: about us
 description: RoofTrain UK is the UK's best provider of roof training courses for novice roofers and expert professionals in the roofing and construction industries.
-hero: v1515518078/train/team2.jpg
+hero: v1527239977/train/team6.jpg
 heroquote: expert roof training with professional roofing results
 ctatext: contact us
 ctalink: contact-us/

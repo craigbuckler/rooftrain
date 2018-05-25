@@ -33,7 +33,7 @@ Training course content includes:
 * measuring simple and complex shapes
 * creating material and quantity lists.
 
-Although intended for merchants, the course would benefit roofing and building contractors looking to improve on their knowledge and confidence in an important part of their business.
+The course benefits roofing and building contractors looking to improve on their knowledge and confidence in an important part of their business.
 
 
 ## Training course dates and venue

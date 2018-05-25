@@ -1,6 +1,6 @@
 ---
-title: St Austell SkillBuild heats
-description: Previous RoofTrain apprentices win at the 2017 SkillBuild national finals.
+title: RoofTrain apprentices qualify for 2017 SkillBuild national finals
+description: Previous RoofTrain apprentices have qualified for the 2017 SkillBuild national finals in St Austell, Cornwall.
 hero: v1516299894/train/training-centre4.jpg
 heroquote: more success for RoofTrain apprentices?
 ctatext: contact us
