@@ -14,11 +14,11 @@ priority: 0.89
 
 A range of apprenticeship roof training courses have been developed to meet the needs of both apprentices and employers in the building and construction sectors.
 
-The Specialist Applied-Skills Programme (SAP) is an 18-month apprenticeship scheme leading to an NVQ Level 2 in Roof Slating & Tiling and Construction Skills Certification Scheme (CSCS) recognition following successfully completion of a health and safety test.
-
-<figure data-href="[imagecdn]v1515518078/train/roofing2.jpg" class="progressive replace inline">
-  <img src="[imagecdn]c_scale,w_30/v1515518078/train/roofing2.jpg" alt="roof training" class="preview" />
+<figure data-href="[imagecdn]v1515518077/train/slating1.jpg" class="progressive replace inline alt">
+  <img src="[imagecdn]c_scale,w_30/v1515518077/train/slating1.jpg" alt="roof training" class="preview" />
 </figure>
+
+The Specialist Applied-Skills Programme (SAP) is an 18-month apprenticeship scheme leading to an NVQ Level 2 in Roof Slating & Tiling and Construction Skills Certification Scheme (CSCS) recognition following successfully completion of a health and safety test.
 
 The course comprises of roof training modules delivered through a combination of formal off-the-job training sessions (23 days) and supervised on-site training with an employer where the final end assessment will be carried out by an industry-approved Assessor.
 
@@ -28,6 +28,9 @@ The training course enables access to a full CITB-ConstructionSkills grant for e
 
 
 ## Who should attend?
+
+> Alan Lander is very knowledgeable and experienced in his field. A good course and very worthwhile.
+<cite>Steve Watkinson, EnergyMyWay</cite>
 
 * Novice roofers having a contract of employment with an appropriate registered company
 * New roofers not already possessing an NVQ Level 2 or equivalent or a higher-level qualification
@@ -47,9 +50,6 @@ The training course enables access to a full CITB-ConstructionSkills grant for e
 
 
 ## What should you bring?
-
-> Alan Lander is very knowledgeable and experienced in his field. A good course and very worthwhile.
-<cite>Steve Watkinson, EnergyMyWay</cite>
 
 Roofing course attendees must bring safety boots, a hard hat, personal small tools and lunch. Other PPE, tools and materials required for the training course are provided.
 
