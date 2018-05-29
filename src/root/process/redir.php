@@ -44,13 +44,7 @@ if ($url !== '') {
 else {
 
 	// show error page
-	$eurl = '/* @echo rootURL */error/';
-
-	$fcont = file_get_contents($eurl);
-	if ($fcont !== false) {
-		header('HTTP/1.0 404 Not Found');
-		echo $fcont;
-	}
-	else header('Location: ' . $eurl);
+	header('HTTP/1.0 404 Not Found');
+	include('error/index.html');
 
 }
