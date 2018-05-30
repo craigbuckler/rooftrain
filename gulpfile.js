@@ -139,7 +139,7 @@
     },
 
     rssfeed: {
-      include: 'article'
+      include: 'news'
     }
   };
 
