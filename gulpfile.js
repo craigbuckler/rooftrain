@@ -43,6 +43,7 @@
     newer         = require('gulp-newer'),
     imagemin      = require('gulp-imagemin'),
     sass          = require('gulp-sass'),
+    sourcemaps    = devBuild ? require('gulp-sourcemaps') : null,
     postcss       = require('gulp-postcss'),
     preprocess    = require('gulp-preprocess'),
     deporder      = require('gulp-deporder'),
@@ -262,9 +263,11 @@
   // Sass/CSS processing
   gulp.task('css', ['images'], () => {
     return gulp.src(css.src)
-      .pipe(sass(css.sassOpts))
+      .pipe(sourcemaps ? sourcemaps.init() : noop())
+      .pipe(sass(css.sassOpts).on('error', sass.logError))
       .pipe(preprocess({ extension: 'js', context: sitemeta }))
       .pipe(postcss(css.processors))
+      .pipe(sourcemaps ? sourcemaps.write() : noop())
       .pipe(gulp.dest(css.build))
       .pipe(browsersync ? browsersync.reload({ stream: true }) : noop());
   });
