@@ -9,8 +9,10 @@
 
   'use strict';
 
+  if (!ow.pwa) return;
+
   // enable service worker
-  if (ow.pwa && 'serviceWorker' in navigator) {
+  if ('serviceWorker' in navigator) {
 
   // register service worker
     navigator.serviceWorker.register('/* @echo rootpath */sw.js');
@@ -24,5 +26,40 @@
     }
 
   }
+
+  // add to home screen
+  var
+    install = document.getElementById('install'),
+    deferredPrompt;
+
+  if (!install) return;
+
+  // PWA can be installed
+  window.addEventListener('beforeinstallprompt', function(e) {
+
+    e.preventDefault();
+    deferredPrompt = e;
+    install.style.display = 'block';
+
+  }, false);
+
+  // install click
+  install.addEventListener('click', function(e) {
+
+    e.preventDefault();
+    if (!deferredPrompt) return;
+
+    install.style.display = 'none';
+
+    deferredPrompt.prompt();
+    deferredPrompt.userChoice
+      .then(function(choice) {
+        if (choice.outcome === 'accepted') {
+          console.log('PWA installed');
+        }
+        deferredPrompt = null;
+      });
+
+  }, false);
 
 })();

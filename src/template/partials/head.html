@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="<%= language %>">
+<html lang="<%= language %>" itemscope itemtype="http://schema.org/WebPage">
 <head>
 <meta charset="UTF-8">
 <title><%= title %><% if (title !== name) { %> | <%= name %><% } %></title>
@@ -20,7 +20,7 @@
 <link rel="icon" sizes="192x192" href="<%- rootURL %>images/icons/rooftrain-192.png">
 <link rel="icon" sizes="152x152" href="<%- rootURL %>images/icons/rooftrain-152.png">
 <link rel="icon" sizes="120x120" href="<%- rootURL %>images/icons/rooftrain-120.png">
-<link rel="icon" sizes="076x076" href="<%- rootURL %>images/icons/rooftrain-076.png">
+<link rel="icon" sizes="76x76" href="<%- rootURL %>images/icons/rooftrain-076.png">
 
 <meta name="msapplication-TileColor" content="<%= themeColor %>">
 <meta name="msapplication-TileImage" content="<%- rootURL %>images/icons/rooftrain-310.png">
@@ -79,4 +79,4 @@
 <% } %>
 
 </head>
-<body<%- (menu ? ' id="' + menu + '"' : '') %>>
+<body<%- (menu ? ' id="' + menu.replace(/\s+/g,'') + '"' : '') %>>
