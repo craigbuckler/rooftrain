@@ -162,6 +162,7 @@
       .use(layouts(html.layouts))
       .use(msutil.shortcodes)
       .use(inline(html.inline))
+      .use(msutil.htmlTidy)
       .use(devBuild ? beautify() : minify())
       .use(debug ? msutil.debug : msutil.noop)
       .use(sitemap(html.sitemap))

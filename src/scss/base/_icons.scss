@@ -17,6 +17,7 @@
 @include icon('menu');
 @include icon('email');
 @include icon('phone');
+@include icon('home-add');
 @include icon('tag');
 @include icon('up');
 @include icon('left');
@@ -36,4 +37,8 @@
     background: inline('images/svg/right.svg') no-repeat 50% 50%;
   }
 
+}
+
+#install {
+  display: none;
 }
