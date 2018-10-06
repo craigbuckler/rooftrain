@@ -8,7 +8,7 @@
 
   const
 
-  // show debug output
+    // show debug output
     debug         = false,
 
     pkg           = require('./package.json'),
@@ -58,7 +58,6 @@
     publish       = require('metalsmith-publish'),
     layouts		    = require('metalsmith-layouts'),
     markdown      = require('metalsmith-markdown'),
-    headingid     = require('metalsmith-headings-identifier'),
     inline        = require('metalsmith-inline-source'),
     wordcount		  = require('metalsmith-word-count'),
     beautify      = require('metalsmith-beautify'),
@@ -110,12 +109,15 @@
     watch       : [dir.src + 'pages/**/*', dir.src + 'template/**/*'],
     build       : dir.build,
 
-    metadata: {
-      menuLowerCase: true
+    markdown: {
+      gfm: true,
+      tables: true,
+      smartypants: false,
+      xhtml: true
     },
 
-    headingid: {
-      linkTemplate: '<a href="#%s" alt="title" class="heading"></a>'
+    metadata: {
+      menuLowerCase: true
     },
 
     layouts: {
@@ -154,15 +156,13 @@
       .clean(false)
       .use(publish())
       .use(msutil.rename)
-      .use(markdown())
+      .use(markdown(html.markdown))
       .use(addmeta(html.metadata))
       .use(tags())
-      .use(headingid(html.headingid))
       .use(wordcount({ raw: true }))
       .use(layouts(html.layouts))
       .use(msutil.shortcodes)
       .use(inline(html.inline))
-      .use(msutil.htmlTidy)
       .use(devBuild ? beautify() : minify())
       .use(debug ? msutil.debug : msutil.noop)
       .use(sitemap(html.sitemap))

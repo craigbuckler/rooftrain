@@ -46,7 +46,7 @@ Serves the correct MIME type and defaults to index.html
     // file available?
     fs.access(filename, fs.constants.R_OK, (err) => {
 
-    // not found
+      // not found
       if (err) {
         serve(404, '404 Not Found\n');
         return;
