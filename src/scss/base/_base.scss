@@ -133,7 +133,7 @@ a, a:link, a:visited {
   color: $color-logo;
 
   main & {
-    text-decoration: underline dotted $color-logo;
+    text-decoration: underline solid $color-logo;
   }
 }
 
