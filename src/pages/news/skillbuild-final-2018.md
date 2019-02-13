@@ -1,7 +1,7 @@
 ---
 title: Skillbuild 2018 - another RoofTrain finalist
 description: RoofTrain apprentice Tyler Mason has progressed to the SkillBuild 2018 final in Birmingham.
-hero: v1536761206/train/apprentice2.jpg
+hero: v1536761206/train/apprentice2
 heroquote: RoofTrain apprentices win awards
 ctatext: contact us
 ctalink: contact-us/

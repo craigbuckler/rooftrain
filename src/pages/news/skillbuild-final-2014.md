@@ -1,7 +1,7 @@
 ---
 title: Silver for RoofTrain apprentice at SkillBuild 2014
 description: Sean Keenor, a RoofTrain apprentice, wins Silver at the SkillBuild 2014 final.
-hero: v1527241023/train/tiling4.jpg
+hero: v1527241023/train/tiling4
 heroquote: silver SkillBuild success for RoofTrain
 ctatext: contact us
 ctalink: contact-us/

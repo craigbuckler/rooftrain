@@ -2,7 +2,7 @@
 title: Roof training centre
 menu: training centre
 description: Our dedicated, custom-built roof-training centre offers a safe, warm environment to learn about roofing.
-hero: v1516293054/training-centre1.jpg
+hero: v1516293054/training-centre1
 heroquote: learn roofing skills safely at our dedicated training centre
 ctatext: contact us
 ctalink: contact-us/
@@ -12,8 +12,8 @@ priority: 0.69
 
 All off-site roofing lessons are conducted in our dedicated roofing course training centre near Exeter in Devon.
 
-<figure data-href="[imagecdn]v1516299894/train/training-centre5.jpg" class="progressive replace inline alt">
-  <img src="[imagecdn]c_scale,w_50/v1516299894/train/training-centre5.jpg" alt="RoofTrain training centre" class="preview" />
+<figure data-href="[imagecdn]f_auto/v1516299894/train/training-centre5" class="progressive replace inline alt">
+  <img src="[imagecdn]f_auto,c_scale,w_50/v1516299894/train/training-centre5" alt="RoofTrain training centre" class="preview" />
 </figure>
 
 

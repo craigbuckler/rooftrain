@@ -74,8 +74,9 @@
 <meta property="twitter:description" content="<%= description %>">
 
 <% if (hero) { %>
-  <meta property="og:image" content="<%- imagecdn %><%- hero %>">
-  <meta property="twitter:image:src" content="<%- imagecdn %><%- hero %>">
+  <meta itemprop="primaryImageOfPage" content="<%- imagecdn %>f_auto/<%- hero %>">
+  <meta property="og:image" content="<%- imagecdn %>f_auto/<%- hero %>">
+  <meta property="twitter:image:src" content="<%- imagecdn %>f_auto/<%- hero %>">
 <% } %>
 
 </head>

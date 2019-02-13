@@ -2,7 +2,7 @@
 title: Roof slating and tiling up-skilling
 menu: slating &amp; tiling
 description: A chance for your roofers to enhance their skills whilst continuing to develop enthusiasm and interest in a roofing career in the slating and tiling industry.
-hero: v1515518025/train/tiling2.jpg
+hero: v1515518025/train/tiling2
 heroquote: up-skilling courses for experienced roofers
 ctatext: contact us
 ctalink: contact-us/
@@ -14,8 +14,8 @@ We aim to give all operatives the best chance to enhance their roofing skills wh
 
 ## Benefits
 
-<figure data-href="[imagecdn]v1515518025/train/tiling1.jpg" class="progressive replace inline alt">
-  <img src="[imagecdn]c_scale,w_50/v1515518025/train/tiling1.jpg" alt="roof tiling lessons" class="preview" />
+<figure data-href="[imagecdn]f_auto/v1515518025/train/tiling1" class="progressive replace inline alt">
+  <img src="[imagecdn]f_auto,c_scale,w_50/v1515518025/train/tiling1" alt="roof tiling lessons" class="preview" />
 </figure>
 
 * Continue to develop and enhance your roofing skills

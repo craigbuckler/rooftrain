@@ -2,7 +2,7 @@
 title: Pitched roofing course
 menu: pitched roofing
 description: Specialist Applied-Skills Programme (SAP) is an 18-month apprentice roofer training course leading to an NVQ Level 2 in Roof Slating and Tiling and Construction Skills Certification Scheme (CSCS) recognition.
-hero: v1515518077/train/battening.jpg
+hero: v1515518077/train/battening
 heroquote: specialist apprentice roofer training and courses
 ctatext: contact us
 ctalink: contact-us/
@@ -14,8 +14,8 @@ priority: 0.89
 
 A range of apprenticeship roof training courses have been developed to meet the needs of both apprentices and employers in the building and construction sectors.
 
-<figure data-href="[imagecdn]v1515518077/train/slating1.jpg" class="progressive replace inline alt">
-  <img src="[imagecdn]c_scale,w_30/v1515518077/train/slating1.jpg" alt="roof training" class="preview" />
+<figure data-href="[imagecdn]f_auto/v1515518077/train/slating1" class="progressive replace inline alt">
+  <img src="[imagecdn]f_auto,c_scale,w_30/v1515518077/train/slating1" alt="roof training" class="preview" />
 </figure>
 
 The Specialist Applied-Skills Programme (SAP) is an 18-month apprenticeship scheme leading to an NVQ Level 2 in Roof Slating & Tiling and Construction Skills Certification Scheme (CSCS) recognition following successfully completion of a health and safety test.
@@ -38,8 +38,8 @@ The training course enables access to a full CITB-ConstructionSkills grant for e
 
 ## Benefits
 
-<figure data-href="[imagecdn]v1527239977/train/team5.jpg" class="progressive replace inline alt">
-  <img src="[imagecdn]c_scale,w_50/v1527239977/train/team5.jpg" alt="roof training success" class="preview" />
+<figure data-href="[imagecdn]f_auto/v1527239977/train/team5" class="progressive replace inline alt">
+  <img src="[imagecdn]f_auto,c_scale,w_50/v1527239977/train/team5" alt="roof training success" class="preview" />
 </figure>
 
 * Roofing trainees will gain experience through off the job training sessions in many aspects of the industry

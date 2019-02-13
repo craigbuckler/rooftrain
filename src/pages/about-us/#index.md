@@ -2,7 +2,7 @@
 title: About RoofTrain UK
 menu: about us
 description: RoofTrain UK is the UK's best provider of roof training courses for novice roofers and expert professionals in the roofing and construction industries.
-hero: v1527239977/train/team6.jpg
+hero: v1527239977/train/team6
 heroquote: expert roof training with professional roofing results
 ctatext: contact us
 ctalink: contact-us/
@@ -13,8 +13,8 @@ priority: 0.7
 
 RoofTrain UK is run by Alan Lander, a professional roofer with more than 40 years experience in the industry.
 
-<figure data-href="[imagecdn]v1516298724/train/alan-lander.jpg" class="progressive replace inline">
-  <img src="[imagecdn]c_scale,w_50/v1516298724/train/alan-lander.jpg" alt="Alan Lander, RoofTrain" class="preview" />
+<figure data-href="[imagecdn]f_auto/v1516298724/train/alan-lander" class="progressive replace inline">
+  <img src="[imagecdn]f_auto,c_scale,w_50/v1516298724/train/alan-lander" alt="Alan Lander, RoofTrain" class="preview" />
 </figure>
 
 For the past 30 years Alan has run Roofcraft (Exeter) Ltd, a successful roofing company based in Exeter, Devon. Since 2001, Alan has been involved in roof training and assessing. He has taught slating, tiling and assessing at NVQ Levels 2 and 3 for the [South Wales & South West Roofing Training Group](http://www.swrtg.co.uk/).

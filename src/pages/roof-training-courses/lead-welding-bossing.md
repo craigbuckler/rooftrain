@@ -2,7 +2,7 @@
 title: Roof lead welding and bossing course
 menu: welding &amp; bossing
 description: Lead bossing and welding are the two of the most common skills required by roof slaters, tilers and lead-workers.
-hero: v1515518078/train/leading1.jpg
+hero: v1515518078/train/leading1
 heroquote: essential lead roofing skills for roofers, slaters, and tilers
 ctatext: contact us
 ctalink: contact-us/
@@ -12,8 +12,8 @@ priority: 0.88
 
 The first hands-on roof training experience in using lead comes in the form of the basic bossing and welding course. Bossing and welding are the two most common skills used by today's roofers, slaters, tilers and lead-workers.
 
-<figure data-href="[imagecdn]v1515518078/train/team1.jpg" class="progressive replace inline">
-  <img src="[imagecdn]c_scale,w_50/v1515518078/train/team1.jpg" alt="lead bossing and welding training success" class="preview" />
+<figure data-href="[imagecdn]f_auto/v1515518078/train/team1" class="progressive replace inline">
+  <img src="[imagecdn]f_auto,c_scale,w_50/v1515518078/train/team1" alt="lead bossing and welding training success" class="preview" />
 </figure>
 
 This LSA-approved roofing course provides a starting point for learning these essential foundations of roof lead-work practice, creating an effective learning experience by teaching in small groups with an emphasis on practical achievement.

@@ -2,7 +2,7 @@
 title: RoofTrain UK client testimonials
 menu: our clients
 description: RoofTrain UK works with roofing companies of any size to provide effective courses for apprentice and expert roofers alike.
-hero: v1515518078/train/team2.jpg
+hero: v1515518078/train/team2
 heroquote: working with roofing companies of all sizes
 ctatext: contact us
 ctalink: contact-us/

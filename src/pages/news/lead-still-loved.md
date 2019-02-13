@@ -1,7 +1,7 @@
 ---
 title: Lead is still loved!
 description: RoofTrain recently held a three-day LSTA-approved basic lead welding course for slaters and tilers at the SWRTG in Melksham.
-hero: v1530190504/train/leading3.jpg
+hero: v1530190504/train/leading3
 heroquote: LSTA-approved lead welding course
 ctatext: contact us
 ctalink: contact-us/
@@ -12,8 +12,8 @@ layout: article.ejs
 
 Keeping lead work alive, six delegates have successfully completed our three-day basic lead welding course recently held at the [SWRTG](http://www.swrtg.co.uk/) in Melksham.
 
-<figure data-href="[imagecdn]v1530190504/train/leading4.jpg" class="progressive replace inline">
-  <img src="[imagecdn]c_scale,w_50/v1530190504/train/leading4.jpg" alt="LSTA-approved lead welding course" class="preview" />
+<figure data-href="[imagecdn]f_auto/v1530190504/train/leading4" class="progressive replace inline">
+  <img src="[imagecdn]f_auto,c_scale,w_50/v1530190504/train/leading4" alt="LSTA-approved lead welding course" class="preview" />
 </figure>
 
 Our [LSTA-approved lead welding course]([root]roof-training-courses/lead-welding-bossing/) is a perfect add-on for slaters and tilers whether they are involved in new builds or re-roofing. Three of the delegates, from AL King Roofing Ltd in Melksham, have tacked the course on to their Specialist Applied-Skills in Pitched Roofing training programme (previously the *Specialist Apprenticeship Programme*).

@@ -1,7 +1,7 @@
 ---
 title: New pitched roofing apprenticeship programme
 description: RoofTrain's fully-funded Pitched Roofing Specialist Apprentice Programme starts in April 2013.
-hero: v1515518025/train/tiling1.jpg
+hero: v1515518025/train/tiling1
 heroquote: pitched roofing course for apprentice roofers
 ctatext: contact us
 ctalink: contact-us/
