@@ -1,6 +1,6 @@
 <nav class="main">
 
-  <p id="logo"><a href="<%- root %>"><img src="images/rooftrain.svg" data-inline="1" /></a></p>
+  <p id="logo"><a href="<%- root %>" title="<%= company %>"><img src="images/rooftrain.svg" data-inline="1" /></a></p>
 
   <%
     let navHTML = navGenerate(nav);
@@ -20,7 +20,7 @@
 
         if (!page.private) navHTML +=
           '<li' + (open ? ' class="open' + (active ? ' active' : '') + '"' : '') + '>' +
-          (page.child.length && !page.nomenu ? '<a href="#open" class="opener">&nbsp;</a>' : '') +
+          (page.child.length && !page.nomenu ? '<a href="#open" class="opener">sub-menu</a>' : '') +
           (active ? '<strong>' : '<a href="' + root + page.url + '">') +
           page.menu +
           (active ? '</strong>' : '</a>') +

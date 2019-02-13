@@ -1,7 +1,7 @@
 ---
 title: RoofTrain apprentices at SkillBuild 2016 finals
 description: Another pair of RoofTrain apprentices have qualified for the 2016 Skillbuild finals.
-hero: v1516299975/train/team4.jpg
+hero: v1516299975/train/team4
 heroquote: RoofTrain apprentices are guaranteed success
 ctatext: contact us
 ctalink: contact-us/

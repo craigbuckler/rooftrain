@@ -1,7 +1,7 @@
 ---
 title: A star is born
 description: Tom Thompson, a RoofTrain apprentice, wins the Rising Star category at the 2018 RCI Pitched Roofing Awards.
-hero: v1544191899/train/tom-thompson1.jpg
+hero: v1544191899/train/tom-thompson1
 heroquote: Tom Thompson wins the Rising Star award
 ctatext: contact us
 ctalink: contact-us/
@@ -10,8 +10,8 @@ tag: news, events, apprenticeship
 layout: article.ejs
 ---
 
-<figure data-href="[imagecdn]v1544191899/train/tom-thompson3.jpg" class="progressive replace inline alt">
-  <img src="[imagecdn]c_scale,w_50/v1544191899/train/tom-thompson3.jpg" alt="Tom Thompson" class="preview" />
+<figure data-href="[imagecdn]f_auto/v1544191899/train/tom-thompson3" class="progressive replace inline alt">
+  <img src="[imagecdn]f_auto,c_scale,w_50/v1544191899/train/tom-thompson3" alt="Tom Thompson" class="preview" />
 </figure>
 
 
@@ -24,8 +24,8 @@ After a traumatic time in Afghanistan, Tom's army career ended and he became an 
 
 Tom proved to be an able roofer and progressed rapidly achieving second in the national [2017 SkillBuild finals]([root]news/skillbuild-final-2017/) with a judge's commendation. He now works for [Roundway Roofing](https://www.roundwayroofing.co.uk/) in Devizes which specialises in heritage work.
 
-<figure data-href="[imagecdn]v1544191899/train/tom-thompson2.jpg" class="progressive replace inline">
-  <img src="[imagecdn]c_scale,w_50/v1544191899/train/tom-thompson2.jpg" alt="Alan Lander and Tom Thompson" class="preview" />
+<figure data-href="[imagecdn]f_auto/v1544191899/train/tom-thompson2" class="progressive replace inline">
+  <img src="[imagecdn]f_auto,c_scale,w_50/v1544191899/train/tom-thompson2" alt="Alan Lander and Tom Thompson" class="preview" />
 </figure>
 
 Alan commented:

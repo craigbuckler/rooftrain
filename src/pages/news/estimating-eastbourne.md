@@ -1,7 +1,7 @@
 ---
 title: Estimating from Eastbourne to Exeter
 description: How roofers can gain new business skills on RoofTrain's estimating course
-hero: v1516299974/train/learning3.jpg
+hero: v1516299974/train/learning3
 heroquote: estimating an increase in demand
 ctatext: contact us
 ctalink: contact-us/

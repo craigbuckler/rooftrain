@@ -2,7 +2,7 @@
 title: Contact us
 menu: contact us
 description: Expechk roof training courses for novice and experienced roofers.
-hero: v1516298724/train/alan-lander.jpg
+hero: v1516298724/train/alan-lander
 heroclass: small
 heroquote: book your next roofing course today!
 priority: 0.5

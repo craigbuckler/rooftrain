@@ -60,7 +60,7 @@
   // show map
   ow.mapStart = function() {
 
-  // activate map element
+    // activate map element
     map.classList.add(cfg.active);
 
     // show map

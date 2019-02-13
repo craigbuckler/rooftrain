@@ -1,7 +1,7 @@
 ---
 title: Page not found?
 description: Sorry, but the page you are looking for could not be found?
-hero: v1516384545/train/broken-roof.jpg
+hero: v1516384545/train/broken-roof
 heroquote: a tile has slipped off our website!
 ctatext: contact us
 ctalink: contact-us/

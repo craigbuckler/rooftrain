@@ -2,7 +2,7 @@
 title: Professional roof training courses
 menu: home
 description: Welcome to RoofTrain UK. We provide effective professional roof training courses for roofers, builders, electricians, plumbers and others in the construction industry.
-hero: v1515518078/train/solar2.jpg
+hero: v1515518078/train/solar2
 heroquote: professional roof training courses for novice and experienced roofers
 ctatext: contact us
 ctalink: contact-us/
@@ -11,8 +11,8 @@ priority: 1.0
 
 Welcome to RoofTrain UK. We provide professional roof training courses for roofers, builders, electricians, plumbers and others in the building and construction industries.
 
-<figure data-href="[imagecdn]v1516298724/train/alan-lander.jpg" class="progressive replace inline">
-  <img src="[imagecdn]c_scale,w_50/v1516298724/train/alan-lander.jpg" alt="Alan Lander, RoofTrain" class="preview" />
+<figure data-href="[imagecdn]f_auto/v1516298724/train/alan-lander" class="progressive replace inline">
+  <img src="[imagecdn]f_auto,c_scale,w_50/v1516298724/train/alan-lander" alt="Alan Lander, RoofTrain" class="preview" />
 </figure>
 
 All our courses are run from our specially-built indoor roof training centre near Exeter in Devon.

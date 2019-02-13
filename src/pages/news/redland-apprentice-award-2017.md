@@ -1,7 +1,7 @@
 ---
 title: Redland apprentice of the year 2017
 description: Tom Knight, a RoofTrain graduate, gains a Highly Commended Award at Redland Apprentice of the Year, 2017.
-hero: v1516299973/train/apprentice1.jpg
+hero: v1516299973/train/apprentice1
 heroquote: continued success for RoofTrain apprentices
 ctatext: contact us
 ctalink: contact-us/
@@ -10,8 +10,8 @@ tag: news, events
 layout: article.ejs
 ---
 
-<figure data-href="[imagecdn]v1515518076/train/learning2.jpg" class="progressive replace inline alt">
-  <img src="[imagecdn]c_scale,w_50/v1515518076/train/learning2.jpg" alt="Redland Apprentice of the Year 2017" class="preview" />
+<figure data-href="[imagecdn]f_auto/v1515518076/train/learning2" class="progressive replace inline alt">
+  <img src="[imagecdn]f_auto,c_scale,w_50/v1515518076/train/learning2" alt="Redland Apprentice of the Year 2017" class="preview" />
 </figure>
 
 We are delighted to congratulate Tom Knight, a RoofTrain apprentice, on his Highly Commended Award at Redland Apprentice of the Year, 2017. Tom was chosen as one of country's best roofing apprentices after two days of intense competition.

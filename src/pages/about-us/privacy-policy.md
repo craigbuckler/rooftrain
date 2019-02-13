@@ -2,7 +2,7 @@
 title: Privacy policy
 menu: privacy policy
 description: RoofTrain privacy policy and General Data Protection Regulation (GDPR).
-hero: v1516298724/train/plans.jpg
+hero: v1516298724/train/plans
 heroquote: committed to protecting your privacy
 heroclass: small
 priority: 0.1

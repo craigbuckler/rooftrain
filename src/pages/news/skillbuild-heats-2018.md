@@ -1,7 +1,7 @@
 ---
 title: RoofTrain apprentice aims for SkillBuild 2018 success
-description: RoofTrain apprentice Tyler Mason takes part in the SkillBuild 2018 heats in Paignton, devon.
-hero: v1529339025/train/skillbuild2.jpg
+description: RoofTrain apprentice Tyler Mason takes part in the SkillBuild 2018 heats in Paignton, Devon.
+hero: v1529339025/train/skillbuild2
 heroquote: RoofTrain apprentices aim sky-high!
 ctatext: contact us
 ctalink: contact-us/

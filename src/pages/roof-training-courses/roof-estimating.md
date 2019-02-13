@@ -2,7 +2,7 @@
 title: Roof estimating course
 menu: roof estimating
 description: Estimating made easy, break down the mystique of architects' drawings, take part in our straight forward, easy to understand roof estimating course.
-hero: v1516298724/train/plans.jpg
+hero: v1516298724/train/plans
 heroquote: specialist roof estimation programme
 ctatext: contact us
 ctalink: contact-us/
@@ -12,8 +12,8 @@ priority: 0.84
 
 Using his many years of experience as a roofing contractor, Alan Lander has developed a roof estimating course.
 
-<figure data-href="[imagecdn]v1516298724/train/learning1.jpg" class="progressive replace inline">
-  <img src="[imagecdn]c_scale,w_50/v1516298724/train/learning1.jpg" alt="roof estimating lessons" class="preview" />
+<figure data-href="[imagecdn]f_auto/v1516298724/train/learning1" class="progressive replace inline">
+  <img src="[imagecdn]f_auto,c_scale,w_50/v1516298724/train/learning1" alt="roof estimating lessons" class="preview" />
 </figure>
 
 The course, originally designed to give merchants an understanding of producing quantity lists and estimating from customers' plans, aims to break down the mystique of architects' drawings.

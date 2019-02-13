@@ -1,7 +1,7 @@
 ---
 title: RoofTrain apprentices at SkillBuild 2015 finals
 description: Two RoofTrain apprentices receive Highly Commended awards at the SkillBuild 2015 final.
-hero: v1516381141/train/skillbuild1.jpg
+hero: v1516381141/train/skillbuild1
 heroquote: continuing the RoofTrain success at SkillBuild
 ctatext: contact us
 ctalink: contact-us/
