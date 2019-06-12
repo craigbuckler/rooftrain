@@ -5,7 +5,7 @@
   </div>
 
   <% if (hero) { %>
-    <figure data-href="<%- imagecdn %>f_auto/<%- hero %>" class="hero progressive replace" itemprop="primaryImageOfPage">
+    <figure data-href="<%- imagecdn %>f_auto/<%- hero %>" class="hero progressive replace" itemprop="primaryImageOfPage" data-revealer="zoomup">
       <img src="<%- imagecdn %>f_auto,c_scale,w_50/<%- hero %>" alt="<%= hero.replace(/.+\/([^/]+)\..+$/, '$1').trim(); %>" class="preview" />
     </figure>
   <% } %>

@@ -12,7 +12,7 @@ priority: 0.84
 
 Using his many years of experience as a roofing contractor, Alan Lander has developed a roof estimating course.
 
-<figure data-href="[imagecdn]f_auto/v1516298724/train/learning1" class="progressive replace inline">
+<figure data-href="[imagecdn]f_auto/v1516298724/train/learning1" class="progressive replace inline" data-revealer="left">
   <img src="[imagecdn]f_auto,c_scale,w_50/v1516298724/train/learning1" alt="roof estimating lessons" class="preview" />
 </figure>
 

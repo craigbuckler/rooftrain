@@ -12,7 +12,7 @@ priority: 0.88
 
 The first hands-on roof training experience in using lead comes in the form of the basic bossing and welding course. Bossing and welding are the two most common skills used by today's roofers, slaters, tilers and lead-workers.
 
-<figure data-href="[imagecdn]f_auto/v1515518078/train/team1" class="progressive replace inline">
+<figure data-href="[imagecdn]f_auto/v1515518078/train/team1" class="progressive replace inline" data-revealer="left">
   <img src="[imagecdn]f_auto,c_scale,w_50/v1515518078/train/team1" alt="lead bossing and welding training success" class="preview" />
 </figure>
 

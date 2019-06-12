@@ -6,7 +6,7 @@
 
 <!-- styles -->
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="<%- root %>css/main.css?<%- version %>">
+<link rel="stylesheet" href="<%- root %>css/main-<%- versionFile %>.css">
 
 <!-- mobile settings -->
 <link rel="manifest" href="<%- rootURL %>manifest.json">
@@ -76,7 +76,7 @@
 <% if (hero) { %>
   <meta itemprop="primaryImageOfPage" content="<%- imagecdn %>f_auto/<%- hero %>">
   <meta property="og:image" content="<%- imagecdn %>f_auto/<%- hero %>">
-  <meta property="twitter:image:src" content="<%- imagecdn %>f_auto/<%- hero %>">
+  <meta property="twitter:image" content="<%- imagecdn %>f_auto/<%- hero %>">
 <% } %>
 
 </head>
