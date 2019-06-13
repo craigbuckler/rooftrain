@@ -61,10 +61,10 @@ if (window.addEventListener && window.requestAnimationFrame && document.getEleme
     if (!href) return;
 
     // load image
-    var img = new Image();
-    if (item.dataset) {
-      img.srcset = item.dataset.srcset || '';
-      img.sizes = item.dataset.sizes || '';
+    var img = new Image(), ds = item.dataset;
+    if (ds) {
+      if (ds.srcset) img.srcset = ds.srcset;
+      if (ds.sizes) img.sizes = ds.sizes;
     }
     img.src = href;
     img.className = 'reveal';

@@ -38,6 +38,8 @@ For an informal no-obligation discussion of your roof training requirements, ple
 
   <p><a href="[root]download/rooftrainuk.vcf" title="download VCF file">add us to your address book</a></p>
 
+  <img src="[imagecdn]f_auto/v1516298724/train/alan-lander" alt="Alan Lander, RoofTrain UK" class="photo" itemprop="image" />
+
 </div>
 
 

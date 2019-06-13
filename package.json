@@ -1,6 +1,6 @@
 {
   "name": "rooftrain",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "RoofTrain UK professional roof-training courses",
   "author": "RoofTrain UK",
   "main": "gulp build",
