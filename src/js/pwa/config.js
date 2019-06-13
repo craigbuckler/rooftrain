@@ -7,15 +7,15 @@
 
 const
   domain = '/* @echo rootURL */',
-  version = '/* @echo version */',
-  CACHE = version + '/* @echo PWAcache */',
+  domaincdn = '/* @echo imagecdn */',
+  CACHE = '/* @echo version *//* @echo PWAcache */',
   offlineURL = '/* @echo rootpath *//* @echo offlineURL */',
   installFilesEssential = [
     '/* @echo rootpath */',
-    '/* @echo rootpath */manifest.json',
-    '/* @echo rootpath */css/main.css',
-    '/* @echo rootpath */js/main.js',
-    '/* @echo rootpath */js/offlinepage.js'
+    '/* @echo rootpath */manifest.webmanifest',
+    '/* @echo rootpath */css/main-/* @echo versionFile */.css',
+    '/* @echo rootpath */js/main-/* @echo versionFile */.js',
+    '/* @echo rootpath */js/offlinepage-/* @echo versionFile */.js'
   ].concat(offlineURL),
   installFilesDesirable = [
     '/* @echo imagecdn */f_auto/v1516384857/train/offline',

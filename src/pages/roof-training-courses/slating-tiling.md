@@ -14,7 +14,7 @@ We aim to give all operatives the best chance to enhance their roofing skills wh
 
 ## Benefits
 
-<figure data-href="[imagecdn]f_auto/v1515518025/train/tiling1" class="progressive replace inline alt">
+<figure data-href="[imagecdn]f_auto/v1515518025/train/tiling1" class="progressive replace inline alt" data-revealer="right">
   <img src="[imagecdn]f_auto,c_scale,w_50/v1515518025/train/tiling1" alt="roof tiling lessons" class="preview" />
 </figure>
 

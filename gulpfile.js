@@ -3,10 +3,10 @@
 (() => {
   'use strict';
 
-  // development or production
-  var devBuild  = ((process.env.NODE_ENV || 'development').trim().toLowerCase() === 'development');
-
   const
+
+    // development or production
+    devBuild  = ((process.env.NODE_ENV || 'development').trim().toLowerCase() === 'development'),
 
     // show debug output
     debug         = false,
@@ -19,7 +19,8 @@
       base        : __dirname + '/',
       lib         : __dirname + '/lib/',
       src         : 'src/',
-      build       : 'build/'
+      build       : 'build/',
+      module      : 'node_modules/'
     },
 
     // site meta data
@@ -28,6 +29,7 @@
     sitemeta = {
       devBuild    : devBuild,
       version     : pkg.version,
+      versionFile : pkg.version.replace(/\./g, '-'),
       sitedesc    : site.description,
       author      : pkg.author,
       thisDomain  : devBuild ? site.devdomain : site.domain,
@@ -48,7 +50,6 @@
     preprocess    = require('gulp-preprocess'),
     deporder      = require('gulp-deporder'),
     concat        = require('gulp-concat'),
-    stripdebug    = require('gulp-strip-debug'),
     terser        = require('gulp-terser'),
 
     // Metalsmith and plugins
@@ -81,7 +82,7 @@
   sitemeta.rootURL = sitemeta.thisDomain + (sitemeta.rootpath || '');
 
   // Browser-sync
-  var browsersync	= false;
+  let browsersync	= false;
 
   // show build type
   console.log(pkg.name + ' ' + pkg.version + ', ' + (devBuild ? 'development' : 'production') + ' build');
@@ -162,6 +163,7 @@
       .use(layouts(htmlCfg.layouts))
       .use(msutil.shortcodes)
       .use(inline(htmlCfg.inline))
+      .use(msutil.searchReplace)
       .use(devBuild ? beautify() : minify())
       .use(debug ? msutil.debug : msutil.noop)
       .use(devBuild ? ()=>{} : sitemap(htmlCfg.sitemap))
@@ -213,6 +215,7 @@
 
   }
 
+
   // root file processing
   exports.root = gulp.parallel(rootprocess, rootimages);
 
@@ -244,6 +247,7 @@
     src         : dir.src + 'scss/main.scss',
     watch       : dir.src + 'scss/**/*',
     build       : dir.build + 'css/',
+    filename    : `main-${sitemeta.versionFile}.css`,
     sassOpts: {
       outputStyle     : 'nested',
       imagePath       : '/images/',
@@ -251,13 +255,12 @@
       errLogToConsole : true
     },
     processors: [
+      require('postcss-import'),
       require('postcss-assets')({
         loadPaths: ['images/'],
         basePath: dir.build
       }),
-      require('autoprefixer')({
-        browsers: ['> 1%', 'ie 11']
-      }),
+      require('autoprefixer'),
       require('css-mqpacker'),
       require('cssnano')
     ]
@@ -266,11 +269,14 @@
   // Sass/CSS processing
   function css() {
 
+    del.sync(`${cssCfg.build}*`);
+
     return gulp.src(cssCfg.src)
       .pipe(sourcemaps ? sourcemaps.init() : noop())
       .pipe(sass(cssCfg.sassOpts).on('error', sass.logError))
       .pipe(preprocess({ extension: 'js', context: sitemeta }))
       .pipe(postcss(cssCfg.processors))
+      .pipe(concat(cssCfg.filename))
       .pipe(sourcemaps ? sourcemaps.write() : noop())
       .pipe(gulp.dest(cssCfg.build))
       .pipe(browsersync ? browsersync.reload({ stream: true }) : noop());
@@ -280,13 +286,23 @@
 
 
   // JavaScript settings
-  const
-    jsCfg = {
+  const jsCfg = {
       src         : dir.src + 'js/main/**/*',
+      srcModule   : [
+        dir.module + 'revealer.js/dist/revealer.js'
+      ],
       build       : dir.build + 'js/',
-      filename    : 'main.js'
+      filename    : `main-${sitemeta.versionFile}.js`
     },
     terserOpts = {
+      mangle: {
+        toplevel: true,
+        reserved: ['ow']
+      },
+      compress: {
+        passes: 5,
+        drop_console: !devBuild
+      },
       output: {
         quote_style :  1
       }
@@ -295,13 +311,16 @@
   // JavaScript processing
   function js() {
 
-    return gulp.src(jsCfg.src)
+    del.sync(`${jsCfg.build}main-*.js`);
+
+    return gulp.src([jsCfg.src].concat(jsCfg.srcModule))
       .pipe(preprocess({ context: sitemeta }))
+      .pipe(sourcemaps ? sourcemaps.init() : noop())
       .pipe(deporder())
       .pipe(concat(jsCfg.filename))
-      .pipe(devBuild ? noop() : stripdebug())
       .pipe(terser(terserOpts))
       .on('error', (err) => { console.log(err.toString()); })
+      .pipe(sourcemaps ? sourcemaps.write() : noop())
       .pipe(gulp.dest(jsCfg.build))
       .pipe(browsersync ? browsersync.reload({ stream: true }) : noop());
 
@@ -310,18 +329,20 @@
 
 
   // single JavaScript files (not concatenated)
-  const
-    jssingleCfg = {
-      src         : dir.src + 'js/single/*.js',
-      build       : dir.build + 'js/'
-    };
+  const jssingleCfg = {
+    src         : dir.src + 'js/single/offlinepage.js',
+    build       : dir.build + 'js/',
+    filename    : `offlinepage-${sitemeta.versionFile}.js`
+  };
 
   // JavaScript single file processing
   function jssingle() {
 
+    del.sync(`${jsCfg.build}offlinepage-*.js`);
+
     return gulp.src(jssingleCfg.src)
       .pipe(preprocess({ context: sitemeta }))
-      .pipe(devBuild ? noop() : stripdebug())
+      .pipe(concat(jssingleCfg.filename))
       .pipe(terser(terserOpts))
       .on('error', (err) => { console.log(err.toString()); })
       .pipe(gulp.dest(jssingleCfg.build));
@@ -344,7 +365,6 @@
       .pipe(preprocess({ context: sitemeta }))
       .pipe(deporder())
       .pipe(concat(jspwaCfg.filename))
-      .pipe(devBuild ? noop() : stripdebug())
       .pipe(terser(terserOpts))
       .on('error', (err) => { console.log(err.toString()); })
       .pipe(gulp.dest(jspwaCfg.build));

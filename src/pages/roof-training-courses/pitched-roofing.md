@@ -14,7 +14,7 @@ priority: 0.89
 
 A range of apprenticeship roof training courses have been developed to meet the needs of both apprentices and employers in the building and construction sectors.
 
-<figure data-href="[imagecdn]f_auto/v1515518077/train/slating1" class="progressive replace inline alt">
+<figure data-href="[imagecdn]f_auto/v1515518077/train/slating1" class="progressive replace inline alt" data-revealer="right">
   <img src="[imagecdn]f_auto,c_scale,w_30/v1515518077/train/slating1" alt="roof training" class="preview" />
 </figure>
 
@@ -38,7 +38,7 @@ The training course enables access to a full CITB-ConstructionSkills grant for e
 
 ## Benefits
 
-<figure data-href="[imagecdn]f_auto/v1527239977/train/team5" class="progressive replace inline alt">
+<figure data-href="[imagecdn]f_auto/v1527239977/train/team5" class="progressive replace inline alt" data-revealer="right">
   <img src="[imagecdn]f_auto,c_scale,w_50/v1527239977/train/team5" alt="roof training success" class="preview" />
 </figure>
 

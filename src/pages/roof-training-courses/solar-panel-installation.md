@@ -10,7 +10,7 @@ tag: course, solar
 priority: 0.86
 ---
 
-<figure data-href="[imagecdn]f_auto/v1515518078/train/solar2" class="progressive replace inline">
+<figure data-href="[imagecdn]f_auto/v1515518078/train/solar2" class="progressive replace inline" data-revealer="left">
   <img src="[imagecdn]f_auto,c_scale,w_50/v1515518078/train/solar2" alt="solar installation lessons" class="preview" />
 </figure>
 

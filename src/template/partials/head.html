@@ -6,14 +6,11 @@
 
 <!-- styles -->
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="<%- root %>css/main.css?<%- version %>">
+<link rel="stylesheet" href="<%- root %>css/main-<%- versionFile %>.css">
 
 <!-- mobile settings -->
-<link rel="manifest" href="<%- rootURL %>manifest.json">
-<meta name="theme-color" content="<%= themeColor %>">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="<%= themeColor %>">
-<meta name="mobile-web-app-capable" content="yes">
+<link rel="manifest" href="<%- rootURL %>manifest.webmanifest">
+<meta name="theme-color" content="#900">
 
 <!-- icons -->
 <link rel="icon" sizes="310x310" href="<%- rootURL %>images/icons/rooftrain-310.png">
@@ -22,6 +19,15 @@
 <link rel="icon" sizes="120x120" href="<%- rootURL %>images/icons/rooftrain-120.png">
 <link rel="icon" sizes="76x76" href="<%- rootURL %>images/icons/rooftrain-076.png">
 
+<!-- iOS -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="<%= name %>">
+<link rel="apple-touch-icon" href="<%- rootURL %>images/icons/rooftrain-076.png">
+<link rel="apple-touch-icon" sizes="192x192" href="<%- rootURL %>images/icons/rooftrain-192.png">
+<meta name="apple-mobile-web-app-status-bar-style" content="#900">
+
+<!-- Windows -->
 <meta name="msapplication-TileColor" content="<%= themeColor %>">
 <meta name="msapplication-TileImage" content="<%- rootURL %>images/icons/rooftrain-310.png">
 
@@ -76,7 +82,7 @@
 <% if (hero) { %>
   <meta itemprop="primaryImageOfPage" content="<%- imagecdn %>f_auto/<%- hero %>">
   <meta property="og:image" content="<%- imagecdn %>f_auto/<%- hero %>">
-  <meta property="twitter:image:src" content="<%- imagecdn %>f_auto/<%- hero %>">
+  <meta property="twitter:image" content="<%- imagecdn %>f_auto/<%- hero %>">
 <% } %>
 
 </head>

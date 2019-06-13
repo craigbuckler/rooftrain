@@ -6,7 +6,7 @@
 /* global CACHE installFilesDesirable installFilesEssential offlineURL */
 
 // install static assets
-function installStaticFiles() {
+function cacheInstall() {
 
   return caches.open(CACHE)
     .then(cache => {
@@ -23,7 +23,7 @@ function installStaticFiles() {
 
 
 // clear old caches
-function clearOldCaches() {
+function cacheClearOld() {
 
   return caches.keys()
     .then(keylist => {
@@ -43,7 +43,7 @@ function clearOldCaches() {
 let iExt = ['png', 'jpg', 'jpeg', 'gif', 'webp', 'bmp'].map(f => '.' + f);
 function isImage(url) {
 
-  return iExt.reduce((ret, ext) => ret || url.endsWith(ext), false);
+  return url.startsWith(domaincdn) || iExt.reduce((ret, ext) => ret || url.endsWith(ext), false);
 
 }
 
@@ -65,7 +65,7 @@ function offlineAsset(url) {
   }
   else if (url.startsWith('https://www.optimalworks.net/ws/')) {
 
-  // return nothing for Ajax request
+    // return nothing for Ajax request
     return new Response(
       '',
       { headers: {
