@@ -10,7 +10,7 @@ tag: news, apprenticeship
 layout: article.ejs
 ---
 
-We are pleased to announce we shall be starting another [Pitched Roofing Specialist Apprentice Programme]([root]roof-training-courses/pitched-roofing/) in April 2013. This 24-month course consists of 23 days off-site training at our roofing training centre in Exeter. It concludes with the NVQ assessment through the on-site assessment training route. The course is **fully funded by ConstructionSkills** for all employers who are levy registered and meet grant requirements.
+We are pleased to announce we shall be starting another [Pitched Roofing Specialist Apprentice Programme]([root]roof-training-courses/pitched-roofing/) in April 2013. This 24-month course consists of 23 days off-site training at our roofing training centre in Exeter. It concludes with the NVQ assessment through the on-site assessment training route. The course is __fully funded by ConstructionSkills__ for all employers who are levy registered and meet grant requirements.
 
 The programme has been running for several years. It has been highly successful and produces confident, NVQ-qualified roofers with skills in the following aspects of pitched roofing:
 

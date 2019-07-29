@@ -10,7 +10,7 @@ tag: news, events, skillbuild
 layout: article.ejs
 ---
 
-*He's done it again!*
+_He's done it again!_
 
 Another pair of RoofTrain apprentices have qualified for the Skillbuild finals in November 2016. This follows success in the South West Heat of the national competition for young slaters and tilers. Tom Knight of Wheeler Roofing Services Ltd and Lee Dowding of Dylan Faber Roofing Ltd have both qualified for the national final.
 

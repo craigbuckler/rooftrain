@@ -4,6 +4,7 @@ nav.tag, nav.relative {
   ul {
     display: flex;
     flex-flow: row wrap;
+    align-items: flex-start;
     justify-content: space-between;
     list-style-type: none;
     padding: 0;
@@ -13,17 +14,18 @@ nav.tag, nav.relative {
   li {
     text-align: left;
     padding: 0;
-    margin: 2vmin;
+    margin: 1em 1em 0 0;
   }
 
   li.link-next {
-    margin-left: auto;
     text-align: right;
+    margin: 1em 0 0 auto;
   }
 
-  li.link-parent {
+  li.link-parent, li:only-child {
     flex-basis: 100%;
     text-align: center;
+    margin-right: 0;
   }
 
   a {
