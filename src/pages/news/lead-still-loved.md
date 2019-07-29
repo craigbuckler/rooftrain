@@ -16,7 +16,7 @@ Keeping lead work alive, six delegates have successfully completed our three-day
   <img src="[imagecdn]f_auto,c_scale,w_50/v1530190504/train/leading4" alt="LSTA-approved lead welding course" class="preview" />
 </figure>
 
-Our [LSTA-approved lead welding course]([root]roof-training-courses/lead-welding-bossing/) is a perfect add-on for slaters and tilers whether they are involved in new builds or re-roofing. Three of the delegates, from AL King Roofing Ltd in Melksham, have tacked the course on to their Specialist Applied-Skills in Pitched Roofing training programme (previously the *Specialist Apprenticeship Programme*).
+Our [LSTA-approved lead welding course]([root]roof-training-courses/lead-welding-bossing/) is a perfect add-on for slaters and tilers whether they are involved in new builds or re-roofing. Three of the delegates, from AL King Roofing Ltd in Melksham, have tacked the course on to their Specialist Applied-Skills in Pitched Roofing training programme (previously the _Specialist Apprenticeship Programme_).
 
 Welding is part of an overall five-day basic course. It provides a starting point for learning the most common but essential roofing skills required for lead working, bossing, welding and dressing. Our hands-on training experience in using lead has no special entry requirements and is particularly useful for roofing and building contractors wishing to hone their skills in constructing and installing lead flashing details.
 
@@ -25,7 +25,7 @@ Welding is part of an overall five-day basic course. It provides a starting poin
 
 On completion of the course, delegates know the health and safety procedures for working with metal sheet and can form lead work details with bossing and welding techniques. Your company can benefit from improved quality of lead work and increased on-site productivity.
 
-Trainer, Alan Lander, commented: *"judging by the positive comments we received, it is good to see that working with traditional materials such as lead is still popular. It has a future."*
+Trainer, Alan Lander, commented: _"judging by the positive comments we received, it is good to see that working with traditional materials such as lead is still popular. It has a future."_
 
 > I have learned a new trade. Alan is a great instructor
 <cite>Stu P</cite>

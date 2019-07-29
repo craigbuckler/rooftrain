@@ -10,7 +10,7 @@ tag: news, events, skillbuild
 layout: article.ejs
 ---
 
-*And they’re OFF!...*
+_And they’re OFF!..._
 
 ...to the apprentice roofers' SkillBuild heats in St Austell, Cornwall.
 

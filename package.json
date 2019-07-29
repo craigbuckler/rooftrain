@@ -1,6 +1,6 @@
 {
   "name": "rooftrain",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "RoofTrain UK professional roof-training courses",
   "author": "RoofTrain UK",
   "main": "gulp build",
@@ -41,13 +41,13 @@
     "ie 11"
   ],
   "dependencies": {
-    "autoprefixer": "9.6.0",
+    "autoprefixer": "9.6.1",
     "css-mqpacker": "7.0.0",
     "cssnano": "4.1.10",
-    "del": "4.1.1",
+    "del": "5.0.0",
     "gulp": "4.0.2",
     "gulp-concat": "2.6.1",
-    "gulp-deporder": "1.1.0",
+    "gulp-deporder": "1.2.0",
     "gulp-imagemin": "6.0.0",
     "gulp-newer": "1.4.0",
     "gulp-noop": "1.0.0",
