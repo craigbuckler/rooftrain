@@ -1,7 +1,7 @@
 ---
 title: Rowsell Roofing Apprentices awarded their NVQs!
 description: Three more RoofTrain apprentices gain a Level 2 QCF NVQ Diploma in Roofing.
-hero: v1571246342/train/rowsell-roofing
+hero: v1571406981/train/rowsell-roofing
 heroquote: Rowsell Roofing Rewards RoofTrain Apprentices
 ctatext: contact us
 ctalink: contact-us/
