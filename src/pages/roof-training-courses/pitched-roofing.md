@@ -6,7 +6,7 @@ hero: v1515518077/train/battening
 heroquote: specialist apprentice roofer training and courses
 ctatext: contact us
 ctalink: contact-us/
-tag: course, apprenticeship
+tag: course, apprenticeship, safety
 priority: 0.89
 ---
 

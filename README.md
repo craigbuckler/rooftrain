@@ -24,6 +24,8 @@ Build files for production deployment:
 gulp clean && NODE_ENV=production gulp build
 ```
 
+or `npm run build`
+
 or Windows Powershell:
 
 ```ps
