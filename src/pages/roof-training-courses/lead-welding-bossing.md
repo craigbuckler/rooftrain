@@ -16,7 +16,7 @@ The first hands-on roof training experience in using lead comes in the form of t
   <img src="[imagecdn]f_auto,c_scale,w_50/v1515518078/train/team1" alt="lead bossing and welding training success" class="preview" />
 </figure>
 
-This LSA-approved roofing course provides a starting point for learning these essential foundations of roof lead-work practice, creating an effective learning experience by teaching in small groups with an emphasis on practical achievement.
+This LSTA-approved roofing course provides a starting point for learning these essential foundations of roof lead-work practice, creating an effective learning experience by teaching in small groups with an emphasis on practical achievement.
 
 On completion of the course, novice roofers should understand the health and safety procedures for working with lead sheet and be able to form lead-work details using bossing and welding techniques.
 
