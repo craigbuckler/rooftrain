@@ -12,7 +12,7 @@ priority: 0.67
 We are grateful to the following roofing and associated companies for their continued support to RoofTrain UK.
 
 <ul class="links">
-  <li data-revealer="zoomup"><a href="https://leadsheet.co.uk/"><img src="[imagecdn]v1650118137/links/lsta.png" alt="Lead Sheet Training Academy logo"></a></li>
+  <li data-revealer="zoomup"><a href="https://leadsheet.co.uk/"><img src="[imagecdn]v1650468730/links/lsta.png" alt="Lead Sheet Training Academy logo"></a></li>
   <li data-revealer="zoomup"><a href="https://www.marleyeternit.co.uk/"><img src="[imagecdn]v1516296481/links/marley-eternit.svg" alt="Marley Eternit logo"></a></li>
   <li data-revealer="zoomup"><a href="https://www.velux.co.uk/"><img src="[imagecdn]f_auto/v1516296813/links/velux" alt="Velux logo"></a></li>
   <li data-revealer="zoomup"><a href="http://redland.co.uk/"><img src="[imagecdn]v1525459619/links/redland.svg" alt="Redland logo"></a></li>
