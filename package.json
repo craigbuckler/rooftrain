@@ -42,7 +42,7 @@
     "ie 11"
   ],
   "dependencies": {
-    "autoprefixer": "10.4.4",
+    "autoprefixer": "10.4.7",
     "css-mqpacker": "7.0.0",
     "cssnano": "5.1.7",
     "del": "6.0.0",
@@ -70,7 +70,7 @@
     "postcss-assets": "6.0.0",
     "postcss-import": "14.1.0",
     "revealer.js": "1.1.0",
-    "sass": "1.50.1",
+    "sass": "1.51.0",
     "vinyl-ftp": "0.6.1"
   },
   "devDependencies": {
