@@ -7,7 +7,7 @@ heroquote: specialist roof estimation programme
 ctatext: contact us
 ctalink: contact-us/
 tag: course, estimating
-priority: 0.84
+priority: 0.82
 ---
 
 Using his many years of experience as a roofing contractor, Alan Lander has developed a roof estimating course.
