@@ -1,6 +1,6 @@
 ---
 title: UKATA asbestos training in the South West
-description: RoofTrain now offer full UKATA certified cut-off asbestos awareness training.
+description: RoofTrain now offer full UKATA certified asbestos awareness training.
 hero: v1651840822/train/asbestos
 heroquote: asbestos awareneness course for roofers
 ctatext: contact us
