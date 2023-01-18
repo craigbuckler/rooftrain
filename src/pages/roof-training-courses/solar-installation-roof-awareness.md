@@ -7,7 +7,7 @@ heroquote: roof safety courses for solar panel installers
 ctatext: contact us
 ctalink: contact-us/
 tag: course, solar, safety
-priority: 0.85
+priority: 0.84
 ---
 
 These one-day roof training courses are aimed at non-roofers such as builders, plumbers, electricians etc. The training provides an insight to roofing procedures necessary to ensure a watertight seal when installing solar thermal and photo voltaic collectors. The course includes practical, hands-on training on ground-level roof rigs.
