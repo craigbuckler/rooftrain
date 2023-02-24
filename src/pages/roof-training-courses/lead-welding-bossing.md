@@ -57,6 +57,6 @@ Courses are held at our roof training centre in Exeter, Devon. However, a mobile
 > a well run class, very informal, with helpful tips from well trained staff
 <cite>Colin Joyce, RP Smith & Son</cite>
 
-Roofing courses are held at our [dedicated roof training centre in Exeter, Devon]([root]about-us/roof-training-centre/). A mobile on-site roof training facility is also available. Training dates and course durations are flexible and can be adapted for your circumstances.
+Roofing courses are held at our [dedicated roof training centre in Exeter, Devon]([root]about-us/roof-training-centre/). Training dates and course durations are flexible and can be adapted for your circumstances.
 
 Please [contact us]([root]contact-us/) for more information.
