@@ -16,7 +16,7 @@ priority: 0.85
 
 Using our flexible training methods, we aim to give all operatives the best chance to enhance their skills by allowing them to use their existing roofing knowledge to assist in the installation of solar panels.
 
-These one day roof training courses have been designed to demonstrate the correct installation of solar thermal and photo voltaic collectors for on-roof, in-roof or fully-integrated installations.
+These two-day roof training courses have been designed to demonstrate the correct installation of solar thermal and photo voltaic collectors for on-roof, in-roof or fully-integrated installations.
 
 # Who should attend?
 
@@ -39,4 +39,4 @@ Roofing course attendees must bring safety boots and a hard hat. All other PPE, 
 
 ## Training course dates and venue
 
-Roofing courses are held at our [dedicated roof training centre in Exeter, Devon]([root]about-us/roof-training-centre/). A mobile on-site roof training facility is also available. Training dates and course durations are flexible and can be adapted for your circumstances. Please [contact us]([root]contact-us/) for more information.
+Roofing courses are held at our [dedicated roof training centre in Exeter, Devon]([root]about-us/roof-training-centre/). Training dates and course durations are flexible and can be adapted for your circumstances. Please [contact us]([root]contact-us/) for more information.
