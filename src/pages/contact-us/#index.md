@@ -23,12 +23,7 @@ For an informal no-obligation discussion of your roof training requirements, ple
 
   <dl class="tel">
     <dt class="type" title="telephone">telephone</dt>
-    <dd class="value" title="telephone" itemprop="telephone"><a href="tel:+44-1392-254935">01392 254 935</a></dd>
-  </dl>
-
-  <dl class="tel">
-    <dt class="type" title="mobile">mobile</dt>
-    <dd class="value" title="mobile"><a href="tel:+44-7970-792551">07970 792 551</a></dd>
+    <dd class="value" title="telephone" itemprop="telephone"><a href="tel:+44-7970-792551">07970 792 551</a></dd>
   </dl>
 
   <dl>
@@ -126,4 +121,3 @@ Our [roof training centre]([root]about-us/roof-training-centre/) is located near
 * [from elsewhere](http://maps.google.co.uk/maps?f=d&saddr=&daddr=50.729546,-3.571548)
 
 <div id="map"></div>
-
